@@ -231,11 +231,9 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
 1. **Understanding Relative Paths**:
     - A relative path does not start with a `/` and is based on the current working directory.
     - Example:
-    ```bash
     - If the cwd is `/`, a relative path to `/tmp/a/b/my_file` would be `tmp/a/b/my_file`.
     - If the cwd is `/tmp`, the relative path becomes `a/b/my_file`.
     - If the cwd is `/tmp/a/b/c`, the relative path would be `../my_file`, where `..` refers to the parent directory.
-    ```
     where cwd refers to current working directory or the directory where your terminal prompt is currently located.
 
 2. **Setting the Current Work Directory**:
