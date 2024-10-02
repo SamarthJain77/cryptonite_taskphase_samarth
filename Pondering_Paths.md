@@ -68,7 +68,7 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
 1. **Understanding the `cd` Command**:
     - `cd` stands for "change directory" and is used to navigate between directories.
     - Syntax: `cd <path_to_directory>`
-    - Example:
+    - For example:
     ```bash
     hacker@paths~position-thy-self:~$ cd /some/new/directory
     hacker@paths~position-thy-self:/some/new/directory$
@@ -122,7 +122,7 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
 1. **Understanding the `cd` Command**:
     - `cd` stands for "change directory" and is used to change the shell’s current working directory.
     - Syntax: `cd <path_to_directory>`
-    - Example:
+    - For example:
     ```bash
     hacker@paths~position-elsewhere:~$ cd /some/new/directory
     hacker@paths~position-elsewhere:/some/new/directory$ cd /some/new/directory
@@ -176,7 +176,7 @@ In this challenge, we continue exploring how to navigate the Linux filesystem us
 1. **Understanding the `cd` Command**:
     - `cd` stands for "change directory" and is used to change the shell’s current working directory.
     - Syntax: `cd <path_to_directory>`
-    - Example:
+    - For example:
     ```bash
     hacker@paths~position-yet-elsewhere:~$ cd /some/new/directory
     hacker@paths~position-yet-elsewhere:/some/new/directory$ cd /some/new/directory
