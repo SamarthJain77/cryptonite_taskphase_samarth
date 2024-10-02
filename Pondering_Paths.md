@@ -70,8 +70,8 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
     - Syntax: `cd <path_to_directory>`
     - Example:
     ```bash
-    hacker@dojo:~$ cd /some/new/directory
-    hacker@dojo:/some/new/directory$
+    hacker@paths~position-thy-self:~$ cd /some/new/directory
+    hacker@paths~position-thy-self:/some/new/directory$
     ```
 
 2. **Navigating to the Specified Directory:**:
@@ -85,7 +85,7 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
     ```
 
 3. **Changing the Directory Using `cd`**:
-    - Next, I used the `cd` command to navigate to the /home directory.
+    - Next, I used the `cd` command to navigate to the `/home` directory.
     - Here’s the command I used:
     ```bash
     hacker@paths~position-thy-self:~$ cd /home
@@ -124,8 +124,8 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
     - Syntax: `cd <path_to_directory>`
     - Example:
     ```bash
-    hacker@dojo:~$ cd /some/new/directory
-    hacker@dojo:/some/new/directory$ cd /some/new/directory
+    hacker@paths~position-elsewhere:~$ cd /some/new/directory
+    hacker@paths~position-elsewhere:/some/new/directory$ cd /some/new/directory
     ```
 
 2. **Navigating to the Specified Directory:**:
@@ -139,7 +139,7 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
     ```
 
 3. **Changing the Directory Using `cd`**:
-    - Next, I used the `cd` command to navigate to the /usr/include directory.
+    - Next, I used the `cd` command to navigate to the `/usr/include` directory.
     - Here’s the command I used:
     ```bash
     hacker@paths~position-elsewhere:~$ cd /usr/include
@@ -161,6 +161,61 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
    /challenge/run is an absolute path, invoked from the right directory!
    Here is your flag:
    pwn.college{orG6sJjz0CcyTyaAW0Aqc6HzCdt.ddDN1QDL2YTN0czW}
+    ```
+
+## Key Takeaways
+- The `cd` command is used to change the current working directory.
+- Use `cd <absolute_path>` for navigating directly to a specific location.
+
+# Position yet elsewhere
+
+## About the Challenge
+In this challenge, we continue exploring how to navigate the Linux filesystem using the `cd` (change directory) command. The objective is to execute the `run` program located in the `/challenge` directory, but from a different path that the program specifies.
+
+## Process
+1. **Understanding the `cd` Command**:
+    - `cd` stands for "change directory" and is used to change the shell’s current working directory.
+    - Syntax: `cd <path_to_directory>`
+    - Example:
+    ```bash
+    hacker@paths~position-yet-elsewhere:~$ cd /some/new/directory
+    hacker@paths~position-yet-elsewhere:/some/new/directory$ cd /some/new/directory
+    ```
+
+2. **Navigating to the Specified Directory:**:
+    - When we start the challenge and run the `run` program, it provides a specific path where we need to be located to re-run the program successfully.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@paths~position-yet-elsewhere:~$ /challenge/run
+    Incorrect...
+    You are not currently in the /sys/kernel directory.
+    Please use the `cd` utility to change directory appropriately.
+    ```
+
+3. **Changing the Directory Using `cd`**:
+    - Next, I used the `cd` command to navigate to the `/system/kernel` directory.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~position-yet-elsewhere:~$ cd /sys/kernel
+    ```
+
+4. **Re-executing the `run` Program**:
+    - After navigating to the `/sys/kernel` directory, I re-executed the program using its absolute path.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~position-yet-elsewhere:/sys/kernel$ /challenge/run
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command from the correct directory, the terminal displays the flag.
+    - Output:
+    ```bash
+   hacker@paths~position-yet-elsewhere:/sys/kernel$ /challenge/run
+   Correct!!!
+   /challenge/run is an absolute path, invoked from the right directory!
+   Here is your flag:
+   pwn.college{4-NG-m9nljg3qpflKQF7jr1jP5H.dhDN1QDL2YTN0czW}
+
     ```
 
 ## Key Takeaways
