@@ -267,5 +267,5 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
     ```
 
 ## Key Takeaway
-- The `..` operator is used to move up to the parent directory, aiding in determining relative paths.
+- The `..` operator is used to move up to the parent directory.
 
