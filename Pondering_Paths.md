@@ -269,3 +269,49 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
 ## Key Takeaway
 - The `..` operator is used to move up to the parent directory.
 
+# explicit relative paths, from /
+
+## About the Challenge
+This challenge focuses on using **explicit relative paths** in the Linux filesystem. Unlike "naked" relative paths that specify directories directly, explicit relative paths include entries such as `.` to refer to the current directory.
+
+## Process
+1. **Understanding `.` in Explicit Relative Paths**:
+  - `.` allows us to refer to the current directory explicitly.
+  - Examples:
+  - `./challenge`
+  - `./././challenge/././` 
+  - Both paths above are equivalent and refer to the same directory as `challenge` from the current directory.
+
+2. **Setting the Current Work Directory**:
+    - We start with the current working directory set to `/`
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@paths~explicit-relative-paths-from-:~$ cd /
+    ```
+
+3. **Identifying the Relative Path to the `run` Program**:
+    - The challenge requires us to use explicit relative paths incorporating `.`.
+    - Since the `run` program is located in the `/challenge` directory, the relative path to the program is `./challenge/run`.
+
+4. **Running the Program Using the Relative Path**:
+    - I executed the `run` program using the identified relative path.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command using the correct relative path, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
+   Correct!!!
+   ./challenge/run is a relative path, invoked from the right directory!
+   Here is your flag:
+   pwn.college{MIuwfYvk9Pja092Ko4OeOnyDiNh.dBTN1QDL2YTN0czW}
+    ```
+
+## Key Takeaways
+- The `.` operator refers to the current directory.
+- The `..` operator refers to the parent directory.
+
