@@ -74,7 +74,7 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
     hacker@paths~position-thy-self:/some/new/directory$
     ```
 
-2. **Navigating to the Specified Directory:**:
+2. **Navigating to the Specified Directory**:
     - When we start the challenge and run the `run` program, it provides a specific path where we need to be located to re-run the program successfully.
     - Here’s the command I used and the output I got:
     ```bash
@@ -128,7 +128,7 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
     hacker@paths~position-elsewhere:/some/new/directory$ cd /some/new/directory
     ```
 
-2. **Navigating to the Specified Directory:**:
+2. **Navigating to the Specified Directory**:
     - When we start the challenge and run the `run` program, it provides a specific path where we need to be located to re-run the program successfully.
     - Here’s the command I used and the output I got:
     ```bash
@@ -182,7 +182,7 @@ In this challenge, we continue exploring how to navigate the Linux filesystem us
     hacker@paths~position-yet-elsewhere:/some/new/directory$ cd /some/new/directory
     ```
 
-2. **Navigating to the Specified Directory:**:
+2. **Navigating to the Specified Directory**:
     - When we start the challenge and run the `run` program, it provides a specific path where we need to be located to re-run the program successfully.
     - Here’s the command I used and the output I got:
     ```bash
