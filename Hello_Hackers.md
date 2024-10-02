@@ -33,6 +33,7 @@ In this challenge, we are introduced to basic Linux commands. The goal is to inv
 ## Key Takeaway
 - Commands in Linux are **case-sensitive**.
 
+
 # Intro to Arguments
 
 ## About the Challenge
