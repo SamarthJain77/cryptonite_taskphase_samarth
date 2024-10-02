@@ -222,3 +222,52 @@ In this challenge, we continue exploring how to navigate the Linux filesystem us
 - The `cd` command is used to change the current working directory.
 - Use `cd <absolute_path>` for navigating directly to a specific location.
 
+# implicit relative paths, from /
+
+## About the Challenge
+In this challenge, we explore the concept of relative paths in the Linux filesystem. While absolute paths specify the complete location from the root directory (`/`), relative paths depend on the current working directory and do not begin with a `/`.
+
+## Process
+1. **Understanding Relative Paths**:
+    - A relative path does not start with a `/` and is based on the current working directory.
+    - Example:
+    ```bash
+    - If the cwd is `/`, a relative path to `/tmp/a/b/my_file` would be `tmp/a/b/my_file`.
+    - If the cwd is `/tmp`, the relative path becomes `a/b/my_file`.
+    - If the cwd is `/tmp/a/b/c`, the relative path would be `../my_file`, where `..` refers to the parent directory.
+    ```
+    where cwd refers to current working directory or the directory where your terminal prompt is currently located.
+
+2. **Setting the Current Work Directory**:
+    - We start with the current working directory set to `/`
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@paths~implicit-relative-paths-from-:~$ cd /
+    ```
+
+3. **Identifying the Relative Path to the `run` Program**:
+    - The challenge hints that the relative path to use begins with the letter `c`.
+    - From the current location (`/`), we need to navigate to the `/challenge/run` program.
+    - The relative path to the `run` program is `challenge/run`.
+
+4. **Running the Program Using the Relative Path**:
+    - I executed the `run` program using the identified relative path.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~implicit-relative-paths-from-:/$ challenge/run
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command using the correct relative path, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@paths~implicit-relative-paths-from-:/$ challenge/run
+    Correct!!!
+    challenge/run is a relative path, invoked from the right directory!
+    Here is your flag:
+    pwn.college{c82vLpewZdGlcNPhcdQov-JSF1X.dlDN1QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- The `..` operator is used to move up to the parent directory, aiding in determining relative paths.
+
