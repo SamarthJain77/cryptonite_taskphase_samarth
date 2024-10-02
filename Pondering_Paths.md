@@ -75,7 +75,7 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
     ```
 
 2. **Navigating to the Specified Directory:**:
-    - When you start the challenge and run the `run` program, it provides a specific path where you need to be located to re-run the program successfully.
+    - When we start the challenge and run the `run` program, it provides a specific path where we need to be located to re-run the program successfully.
     - Here’s the command I used and the output I got:
     ```bash
     hacker@paths~position-thy-self:~$ /challenge/run
@@ -129,7 +129,7 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
     ```
 
 2. **Navigating to the Specified Directory:**:
-    - When you start the challenge and run the `run` program, it provides a specific path where you need to be located to re-run the program successfully.
+    - When we start the challenge and run the `run` program, it provides a specific path where we need to be located to re-run the program successfully.
     - Here’s the command I used and the output I got:
     ```bash
     hacker@paths~position-elsewhere:~$ /challenge/run
