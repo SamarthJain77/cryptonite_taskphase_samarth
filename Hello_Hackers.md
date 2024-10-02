@@ -47,7 +47,7 @@ This challenge introduces the concept of command-line arguments in Linux. The ob
     Hello Hackers!
     hacker@hello~intro-to-arguments:~$
     ```
-    In this case, the command was `echo`, and `Hello` and `Hackers!` were the two arguments to `echo`. `echo` is a simple command that "echoes" all of its arguments back out       onto the terminal
+    In this case, the command was `echo`, and `Hello` and `Hackers!` were the two arguments to `echo`. `echo` is a simple command that "echoes" all of its arguments back out       onto the terminal.
 
 2. **Executing the `hello` Command with an Argument**:
     - To solve this challenge, we need to run the `hello` command with `hackers` as its argument.
