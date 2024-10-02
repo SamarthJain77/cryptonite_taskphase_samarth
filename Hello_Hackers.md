@@ -5,7 +5,7 @@ In this challenge, we are introduced to basic Linux commands. The goal is to inv
 
 ## Process
 1. **Understanding the Prompt**:
-    - When you see the prompt `hacker@hello~intro-to-commands:~$`, it indicates that the shell is ready to accept commands.
+    - When we see the prompt `hacker@hello~intro-to-commands:~$`, it indicates that the shell is ready to accept commands.
     - For example:
     ```bash
     hacker@hello~intro-to-commands:~$ whoami
@@ -40,7 +40,7 @@ This challenge introduces the concept of command-line arguments in Linux. The ob
 
 ## Process
 1. **Understanding the Prompt**:
-    - When you see the prompt `hacker@hello~intro-to-arguments:~$`, it indicates that the shell is ready to accept commands.
+    - When we see the prompt `hacker@hello~intro-to-arguments:~$`, it indicates that the shell is ready to accept commands.
     - For example:
     ```bash
     hacker@hello~intro-to-arguments:~$ echo Hello Hackers!
