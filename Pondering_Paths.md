@@ -4,7 +4,7 @@
 In this challenge, we are introduced to the concept of the filesystem structure in Linux, which starts at the root directory, `/`. The objective is to run a program named `pwn` located directly under the root directory (`/`).
 
 ## Process
-1. **Navigating the Root Directory**:
+1. **Understanding the Root Directory**:
     - The filesystem starts at the root directory `/`, which contains various directories and files.
     - For this challenge, we need to execute a program located directly at `/`.
 
