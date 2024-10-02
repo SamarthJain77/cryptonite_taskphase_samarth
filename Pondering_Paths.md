@@ -59,3 +59,58 @@ In this challenge, we delve deeper into navigating the filesystem using absolute
 ## Key Takeaway
 - **Absolute paths** specify the exact location of a program or file, starting from the root directory (`/`).
 
+# Position thy self
+
+## About the Challenge
+In this challenge, we learn how to navigate the Linux filesystem using the `cd` (change directory) command. The objective is to execute the `run` program located in the `/challenge` directory, but from a specific path that the program specifies.
+
+## Process
+1. **Understanding the `cd` Command**:
+    - `cd` stands for "change directory" and is used to navigate between directories.
+    - Syntax: `cd <path_to_directory>`
+    - Example:
+    ```bash
+    hacker@dojo:~$ cd /some/new/directory
+    hacker@dojo:/some/new/directory$
+    ```
+
+2. **Navigating to the Specified Directory:**:
+    - When you start the challenge and run the `run` program, it provides a specific path where you need to be located to re-run the program successfully.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@paths~position-thy-self:~$ /challenge/run
+    Incorrect...
+    You are not currently in the /home directory.
+    Please use the `cd` utility to change directory appropriately.
+    ```
+
+3. **Changing the Directory Using `cd`**:
+    - Next, I used the `cd` command to navigate to the /home directory.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~position-thy-self:~$ cd /home
+    ```
+
+4. **Re-executing the `run` Program**:
+    - After navigating to the `/home` directory, I re-executed the program using its absolute path.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~position-thy-self:/home$ /challenge/run
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command from the correct directory, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@paths~position-thy-self:/home$ /challenge/run
+    Correct!!!
+    /challenge/run is an absolute path, invoked from the right directory!
+    Here is your flag:
+    pwn.college{AtFRGrHc_Q429It7b7QdF5NBl3t.dZDN1QDL2YTN0czW}
+    ```
+
+## Key Takeaways
+- The `cd` command is used to change the current working directory.
+- Use `cd <absolute_path>` for navigating directly to a specific location.
+
+
