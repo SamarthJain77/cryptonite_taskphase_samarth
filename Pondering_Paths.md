@@ -157,10 +157,10 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
     - Output:
     ```bash
     hacker@paths~position-elsewhere:/usr/include$ /challenge/run
-   Correct!!!
-   /challenge/run is an absolute path, invoked from the right directory!
-   Here is your flag:
-   pwn.college{orG6sJjz0CcyTyaAW0Aqc6HzCdt.ddDN1QDL2YTN0czW}
+    Correct!!!
+    /challenge/run is an absolute path, invoked from the right directory!
+    Here is your flag:
+    pwn.college{orG6sJjz0CcyTyaAW0Aqc6HzCdt.ddDN1QDL2YTN0czW}
     ```
 
 ## Key Takeaways
@@ -215,7 +215,6 @@ In this challenge, we continue exploring how to navigate the Linux filesystem us
    /challenge/run is an absolute path, invoked from the right directory!
    Here is your flag:
    pwn.college{4-NG-m9nljg3qpflKQF7jr1jP5H.dhDN1QDL2YTN0czW}
-
     ```
 
 ## Key Takeaways
@@ -238,7 +237,7 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
 
 2. **Setting the Current Work Directory**:
     - We start with the current working directory set to `/`
-    - Here’s the command I used and the output I got:
+    - Here’s the command I used:
     ```bash
     hacker@paths~implicit-relative-paths-from-:~$ cd /
     ```
@@ -284,7 +283,7 @@ This challenge focuses on using **explicit relative paths** in the Linux filesys
 
 2. **Setting the Current Work Directory**:
     - We start with the current working directory set to `/`
-    - Here’s the command I used and the output I got:
+    - Here’s the command I used:
     ```bash
     hacker@paths~explicit-relative-paths-from-:~$ cd /
     ```
@@ -305,13 +304,56 @@ This challenge focuses on using **explicit relative paths** in the Linux filesys
     - Output:
     ```bash
     hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
-   Correct!!!
-   ./challenge/run is a relative path, invoked from the right directory!
-   Here is your flag:
-   pwn.college{MIuwfYvk9Pja092Ko4OeOnyDiNh.dBTN1QDL2YTN0czW}
+    Correct!!!
+    ./challenge/run is a relative path, invoked from the right directory!
+    Here is your flag:
+    pwn.college{MIuwfYvk9Pja092Ko4OeOnyDiNh.dBTN1QDL2YTN0czW}
     ```
 
 ## Key Takeaways
 - The `.` operator refers to the current directory.
 - The `..` operator refers to the parent directory.
+
+# implicit relative path
+
+## About the Challenge
+This challenge introduces a common behavior in Linux where running a program located in the current directory using its "naked" path does not work as expected. The reason is that, by default, the shell does not search the current directory (`.`) for executable programs.
+
+## Process
+1. **Understanding `./` to Explicitly Refer Programs in the Current Directory**:
+  - To execute a program in the current directory, use `./<program_name>`.
+  - The `./` indicates that the program is in the **current directory** and should be executed from there.
+
+2. **Setting the Current Work Directory**:
+    - We start with the current working directory set to `/challenge`
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~implicit-relative-path:~$ cd /
+    hacker@paths~implicit-relative-path:/$ cd /challenge
+    ```
+
+3. **Identifying the Relative Path to the `run` Program**:
+    - The challenge requires us to invoke the `run` program using an explicit relative path indicating that it is being executed from the current directory
+    - Since the `run` program is located in the `/challenge` directory, the relative path to the program is `./run`.
+
+4. **Running the Program Using the Relative Path**:
+    - I executed the `run` program using the identified relative path.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~implicit-relative-path:/challenge$ ./run
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command using the correct relative path, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@paths~implicit-relative-path:/challenge$ ./run
+    Correct!!!
+    ./run is a relative path, invoked from the right directory!
+    Here is your flag:
+    pwn.college{wvPv9XAi699QyWQpmQZ7mJnrpM8.dFTN1QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- Always use `./` to explicitly refer and run executable programs in the current directory.
 
