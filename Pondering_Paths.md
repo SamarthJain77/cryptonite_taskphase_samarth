@@ -357,3 +357,38 @@ This challenge introduces a common behavior in Linux where running a program loc
 ## Key Takeaway
 - Always use `./` to explicitly refer and run executable programs in the current directory.
 
+# home sweet home
+
+## About the Challenge
+This challenge introduces the concept of **home directory** in the Linux filesystem and the shorthand `~` that refers to a user's home directory. As the `hacker` user, our home directory is located at `/home/hacker`.
+
+## Process
+1. **Understanding `~` Expansion**:
+  - When `~` is used at the beginning of a path, it expands to the absolute path of our home directory (`/home/hacker`).
+  - Only the leading `~` is expanded; for instance, `~/file` becomes `/home/hacker/file`, but `~/~/file` would become `/home/hacker/~/file`.
+
+2. **Understanding the Constraints**:
+    - Given the constraints, I decided to use the `~` symbol to specify the absolute path within the home directory. Since the `~` itself expands to `/home/hacker`, path like `~/s` will satisfy the requirements.
+    
+3. **Executing the Program Using the Identified Path**:
+    - I ran the `run` program with a three-character argument that expands into an absolute path inside `/home/hacker`.
+    - Here’s the command I used:
+    ```bash
+    hacker@paths~home-sweet-home:~$ /challenge/run ~/s
+    ```
+
+4. **Capturing the Flag**:
+    - After running the command with the correctly identified argument, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@paths~home-sweet-home:~$ /challenge/run ~/s
+    Writing the file to /home/hacker/s!
+    ... and reading it back to you:
+    pwn.college{YcYTUT34x_hLUhctmoMC8YkWvgz.dNzM4QDL2YTN0czW}
+    ```
+
+## Key Takeaways
+- The `~` symbol is a shorthand for referring to the user’s home directory.
+- When using `~` in paths, it only expands if it’s the first character in the path.
+- Typing `cd` without any arguments is a shortcut to navigate back to the home directory.
+
