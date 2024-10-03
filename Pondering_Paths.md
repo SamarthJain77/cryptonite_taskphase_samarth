@@ -234,7 +234,7 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
     - If the cwd is `/`, a relative path to `/tmp/a/b/my_file` would be `tmp/a/b/my_file`.
     - If the cwd is `/tmp`, the relative path becomes `a/b/my_file`.
     - If the cwd is `/tmp/a/b/c`, the relative path would be `../my_file`, where `..` refers to the parent directory.
-    - `cwd` refers to current working directory or the directory where your terminal prompt is currently located.
+    - cwd refers to current working directory or the directory where your terminal prompt is currently located.
 
 2. **Setting the Current Work Directory**:
     - We start with the current working directory set to `/`
