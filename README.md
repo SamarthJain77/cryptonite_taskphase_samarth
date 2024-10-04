@@ -21,3 +21,4 @@
 - [touching files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#touching-files)
 - [removing files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#removing-files)
 - [hidden files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#hidden-files)
+- [An Epic Filesystem Quest](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#an-epic-filesystem-quest)
