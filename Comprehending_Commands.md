@@ -138,3 +138,45 @@ In this challenge, we learn to use the `grep` command, a tool for searching text
 
 ## Key Takeaway
 - The basic syntax of `grep` involves specifying the search string and the file path.
+
+# listing files
+
+## About the Challenge
+In this challenge, we are introduced to the `ls` command, which is used to list the contents of directories in Linux. This challenge requires us to find the executable file in the `/challenge` directory, which has been given a random name.
+
+## Process
+1. **Understanding the `ls` Command**:
+    - `ls` is a command-line utility used for listing files and directories.
+    - Basic Syntax:
+    ```bash
+    ls [DIRECTORY]
+    ```
+    - If no directory is specified, `ls` lists the files in the current directory by default.
+
+2. **Identifying the Target Directory**:
+    - We need to view the contents of the `/challenge` directory so I used the `ls` command to list all the files in `/challenge`.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~listing-files:~$ ls /challenge
+    26986-renamed-run-18015  DESCRIPTION.md
+    ```
+    - From the output, I observed the executable file, which was named `26986-renamed-run-18015`.
+
+3. **Executing the File**:
+    - I ran the executable file using its path.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~listing-files:~$ /challenge/26986-renamed-run-18015
+    ```
+
+4. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~listing-files:~$ /challenge/26986-renamed-run-18015
+    Yahaha, you found me! Here is your flag:
+    pwn.college{U2JYRqIV_xHRIAzUi2VLuH607Ei.dhjM4QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- `ls` is used to explore and identify files within a directory, especially when the file names are unknown.
