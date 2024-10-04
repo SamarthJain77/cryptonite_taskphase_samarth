@@ -111,7 +111,7 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
 
 ## Key Takeaways
 - The `cd` command is used to change the current working directory.
-- Use `cd <absolute_path>` for navigating directly to a specific location.
+- `cd <absolute_path>` is used for navigating directly to a specific location.
 
 # Position elsewhere
 
