@@ -228,3 +228,42 @@ This challenge introduces us to the `touch` command, a simple command in Linux u
 - `touch` is a quick command for creating empty files without needing to open an editor.
 - `touch file1 file2 file3` is used to create multiple files.
 
+# removing files
+
+## About the Challenge
+In this challenge, we explore the `rm` command, which is used for removing files in Linux. The challenge involves deleting a file named `delete_me` that is automatically created in the home directory (`/home/hacker`). Once the file is successfully deleted, running `/challenge/check` will verify the deletion and display the flag.
+
+## Process
+1. **Understanding the `rm` Command**:
+    - The `rm` command stands for "remove" and is used to delete files or directories.
+    - Basic Syntax:
+    ```bash
+    rm FILE_NAME
+    ```
+
+2. **Removing the File**:
+    - We know that the `delete_me` file is present in the home directory so we need to remove it using `rm`.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~removing-files:~$ rm delete_me
+    ```
+    
+3. **Executing the Required Program**:
+   - I executed the `/challenge/check` program to verify the file's removal.
+   - Here’s the command I used:
+     ```bash
+     hacker@commands~removing-files:~$ /challenge/check
+     ```
+     
+4. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~removing-files:~$ /challenge/check
+    Excellent removal. Here is your reward:
+    pwn.college{cYR_N1CyrMeD6XndpV61FEiGrTz.dZTOwUDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- The `rm` command is used for permanently removing unnecessary or temporary files.
+
