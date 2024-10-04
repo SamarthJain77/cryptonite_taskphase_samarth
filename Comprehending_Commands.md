@@ -153,7 +153,7 @@ In this challenge, we are introduced to the `ls` command, which is used to list 
     ```
     - If no directory is specified, `ls` lists the files in the current directory by default.
 
-2. **Identifying the Target Directory**:
+2. **Identifying the Executable File**:
     - We need to view the contents of the `/challenge` directory so I used the `ls` command to list all the files in `/challenge`.
     - Here’s the command I used and the output I got:
     ```bash
@@ -266,4 +266,54 @@ In this challenge, we explore the `rm` command, which is used for removing files
 
 ## Key Takeaway
 - The `rm` command is used for permanently removing unnecessary or temporary files.
+
+# hidden files
+
+## About the Challenge
+In this challenge, we explore the concept of hidden files in Linux. Hidden files are files that start with a `.` (dot) and are not listed by default when using the `ls` command. Using the `ls -a` command, which displays all files (including hidden ones), we need to locate the hidden flag file located in the root directory (`/`) and read its contents.
+
+## Process
+1. **Understanding the `ls` Command with `-a` Option**:
+    - By default, the `ls` command only displays visible files.
+    - The `-a` option is used to list **all** files, including hidden ones.
+    - Basic Syntax:
+    ```bash
+    ls -a [DIRECTORY_PATH]
+    ```
+
+2. **Navigating to the Root Directory**:
+    - We start with the current working directory set to `/`.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~hidden-files:~$ cd /
+    ```
+
+3. **Identifying the Hidden Flag File**:
+    - We need to view all the files of the `/` directory so I used the `ls -a` command to list all the files, including hidden ones.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~hidden-files:/$ ls -a
+    .           .flag-8881596214312  challenge  home   lib64   mnt  proc  sbin  tmp
+    ..          bin                  dev        lib    libx32  nix  root  srv   usr
+    .dockerenv  boot                 etc        lib32  media   opt  run   sys   var
+    ```
+    - From the output, I observed the hidden flag file, which was named `.flag-8881596214312`.
+
+4. **Reading the Hidden Flag File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~hidden-files:/$ cat .flag-8881596214312
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~hidden-files:/$ cat .flag-8881596214312
+    pwn.college{gns8xBoKtHXd8ZkPjsWP_yq039a.dBTN4QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- `ls -a` is used to view all files within a directory, including the hidden ones.
 
