@@ -18,3 +18,4 @@
 - [more catting practice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#more-catting-practice)
 - [grepping for a needle in a haystack](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#grepping-for-a-needle-in-a-haystack)
 - [listing files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#listing-files)
+- [touching files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#touching-files)
