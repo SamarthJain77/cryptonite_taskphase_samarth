@@ -236,7 +236,7 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
     - cwd refers to current working directory or the directory where your terminal prompt is currently located.
 
 2. **Setting the Current Work Directory**:
-    - We start with the current working directory set to `/`
+    - We start with the current working directory set to `/`.
     - Here’s the command I used:
     ```bash
     hacker@paths~implicit-relative-paths-from-:~$ cd /
@@ -282,7 +282,7 @@ This challenge focuses on using **explicit relative paths** in the Linux filesys
   - Both paths above are equivalent and refer to the same directory as `challenge` from the current directory.
 
 2. **Setting the Current Work Directory**:
-    - We start with the current working directory set to `/`
+    - We start with the current working directory set to `/`.
     - Here’s the command I used:
     ```bash
     hacker@paths~explicit-relative-paths-from-:~$ cd /
@@ -325,7 +325,7 @@ This challenge introduces a common behavior in Linux where running a program loc
   - The `./` indicates that the program is in the **current directory** and should be executed from there.
 
 2. **Setting the Current Work Directory**:
-    - We start with the current working directory set to `/challenge`
+    - We start with the current working directory set to `/challenge`.
     - Here’s the command I used:
     ```bash
     hacker@paths~implicit-relative-path:~$ cd /
@@ -333,7 +333,7 @@ This challenge introduces a common behavior in Linux where running a program loc
     ```
 
 3. **Identifying the Relative Path to the `run` Program**:
-    - The challenge requires us to invoke the `run` program using an explicit relative path indicating that it is being executed from the current directory
+    - The challenge requires us to invoke the `run` program using an explicit relative path indicating that it is being executed from the current directory.
     - Since the `run` program is located in the `/challenge` directory, the relative path to the program is `./run`.
 
 4. **Running the Program Using the Relative Path**:
