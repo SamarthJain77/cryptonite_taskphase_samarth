@@ -12,3 +12,4 @@
 - [explicit relative paths, from /](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_Paths.md#explicit-relative-paths-from-)
 - [implicit relative path](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_Paths.md#implicit-relative-path)
 - [home sweet home](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_Paths.md#home-sweet-home)
+## Comprehending Commands
