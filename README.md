@@ -20,3 +20,4 @@
 - [listing files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#listing-files)
 - [touching files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#touching-files)
 - [removing files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#removing-files)
+- [hidden files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#hidden-files)
