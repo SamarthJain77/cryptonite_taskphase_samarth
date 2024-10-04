@@ -38,3 +38,37 @@ This challenge introduces the `cat` command, a fundamental tool in Linux used fo
 ## Key Takeaways
 - The `cat` command is used for displaying file contents and concatenating multiple files.
 - `cat <filename>` is used to read and output the content of a specific file.
+
+# catting absolute paths
+
+## About the Challenge
+In this challenge, we explore using `cat` to read files using **absolute paths**.
+
+## Process
+1. **Understanding the `cat` Command with Absolute Paths**:
+    - `cat` can be used with absolute paths to read any accessible file without needing to change directories.
+    - Syntax:
+    ```bash
+    cat /absolute/path/to/file
+    ```
+2. **Identifying the Absolute Path**:
+    - The challenge specifies that the flag file is located at `/flag`.
+    
+3. **Using `cat` to Read the `flag` File**:
+    - Since `cat` can be used with absolute paths, there is no need to change directories. We just need to read and display the contents of the `flag` file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~catting-absolute-paths:~$ cat /flag
+    ```
+
+4. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~catting-absolute-paths:~$ cat /flag
+    pwn.college{shAmmrjCPe7RIs1HMKTTCq7E3rR.dlTM5QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- When using `cat` with absolute paths, you can access files directly without navigating through directories.
+
