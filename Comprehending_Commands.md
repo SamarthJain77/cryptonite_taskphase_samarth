@@ -180,3 +180,51 @@ In this challenge, we are introduced to the `ls` command, which is used to list 
 
 ## Key Takeaway
 - `ls` is used to explore and identify files within a directory, especially when the file names are unknown.
+
+# touching files
+
+## About the Challenge
+This challenge introduces us to the `touch` command, a simple command in Linux used to create empty files or update the timestamps of existing ones. The goal is to create two files, `/tmp/pwn` and `/tmp/college`, using `touch` and then execute the `/challenge/run` program to capture the flag.
+
+## Process
+1. **Understanding the `touch` Command**:
+    - `touch` is primarily used to create empty files.
+    - Basic Syntax:
+    ```bash
+    touch FILE_NAME
+  - We can create multiple files in a single command by specifying multiple file names.
+
+2. **Navigating to the `/tmp` Directory**:
+    - `/tmp` is a directory in Linux used for storing temporary files.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~touching-files:~$ cd /tmp
+    ```
+
+3. **Creating the Required Files**:
+   - I used the `touch` command to create both `/tmp/pwn` and `/tmp/college` files in a single command.
+   - Here’s the command I used:
+     ```bash
+     hacker@commands~touching-files:/tmp$ touch pwn college
+     ```
+
+4. **Executing the `run` Program**:
+   - After creating the required files, I executed the `run` program present in the `challenge` directory.
+   - Here’s the command I used:
+     ```bash
+     hacker@commands~touching-files:/tmp$ /challenge/run
+     ```
+     
+5. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~touching-files:/tmp$ /challenge/run
+    Success! Here is your flag:
+    pwn.college{gNJPy1h8RYfZNfiOfarZsHUs1hJ.dBzM4QDL2YTN0czW}
+    ```
+
+## Key Takeaways
+- `touch` is a quick command for creating empty files without needing to open an editor.
+- `touch file1 file2 file3` is used to create multiple files.
+
