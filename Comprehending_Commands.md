@@ -317,3 +317,239 @@ In this challenge, we explore the concept of hidden files in Linux. Hidden files
 ## Key Takeaway
 - `ls -a` is used to view all files within a directory, including the hidden ones.
 
+# An Epic Filesystem Quest
+
+## About the Challenge
+This challenge is a treasure hunt using our understanding of basic Linux commands: `cd`, `ls`, and `cat`. Starting at the root directory (`/`), the goal is to follow a series of clues hidden in various directories until the final flag file is found.
+
+## Process
+1. **Navigating to the Root Directory**:
+    - We start with the current working directory set to `/`.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:~$ cd /
+    ```
+
+2. **Identifying the First Clue File**:
+    - We need to view all the files of the `/` directory.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/$ ls
+    DOSSIER  challenge  flag  lib32   media  opt   run   sys  var
+    bin      dev        home  lib64   mnt    proc  sbin  tmp
+    boot     etc        lib   libx32  nix    root  srv   usr
+    ```
+    - From the output, I observed the initial clue file, which was named `DOSSIER`.
+
+3. **Reading the First Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/$ cat DOSSIER
+    Lucky listing!
+    The next clue is in: /usr/share/javascript/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular
+    ```
+
+4. **Navigating to the Specified Directory**:
+    - We need to be located in the path specified by the clue file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/$ cd  /usr/share/javascript/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular
+    ```
+
+5. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/usr/share/javascript/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular` directory.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/share/javascript/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular$ ls
+    Main.js  TEASER
+    ```
+    - From the output, I observed the next clue file, which was named `TEASER`.
+
+6. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/share/javascript/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular$ cat TEASER
+    Congratulations, you found the clue!
+    The next clue is in: /opt/kropr/.git/objects/5f
+
+    The next clue is **hidden** --- its filename starts with a '.' character. You'll need to look for it using special options to 'ls'.
+    ```
+
+7. **Navigating to the Specified Directory**:
+    - We need to be located in the path specified by the clue file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/share/javascript/mathjax/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular$ cd /opt/kropr/.git/objects/5f
+    ```
+
+8. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/opt/kropr/.git/objects/5f` directory, including the hidden ones.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/opt/kropr/.git/objects/5f$ ls -a
+    .  ..  .CLUE  0abecb613308dce446c76ad65bd2d5842b87be
+    ```
+    - From the output, I observed the next clue file, which was named `.CLUE`.
+
+9. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/opt/kropr/.git/objects/5f$ cat .CLUE
+    Yahaha, you found me!
+    The next clue is in: /usr/share/perl/5.30.0/App/Prove/State
+
+    Watch out! The next clue is **trapped**. You'll need to read it out without 'cd'ing into the directory; otherwise, the clue will self destruct!
+    ```
+
+10. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/usr/share/perl/5.30.0/App/Prove/State` directory, without 'cd'ing into it.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/opt/kropr/.git/objects/5f$ ls /usr/share/perl/5.30.0/App/Prove/State
+    INSIGHT-TRAPPED  Result  Result.pm
+    ```
+    - From the output, I observed the next clue file, which was named `INSIGHT-TRAPPED`.
+
+11. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/opt/kropr/.git/objects/5f$ cat /usr/share/perl/5.30.0/App/Prove/State/INSIGHT-TRAPPED
+    Tubular find!
+    The next clue is in: /usr/include/x86_64-linux-gnu/c++/9
+    ```
+
+12. **Navigating to the Specified Directory**:
+    - We need to be located in the path specified by the clue file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/opt/kropr/.git/objects/5f$ cd /usr/include/x86_64-linux-gnu/c++/9
+    ```
+
+13. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/usr/include/x86_64-linux-gnu/c++/9` directory.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/include/x86_64-linux-gnu/c++/9$ ls
+    32  BLUEPRINT  bits  ext  x32
+    ```
+    - From the output, I observed the next clue file, which was named `BLUEPRINT`.
+
+14. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/include/x86_64-linux-gnu/c++/9$ cat BLUEPRINT
+    Lucky listing!
+    The next clue is in: /opt/linux/linux-5.4/tools/arch/arm64/include
+
+    Watch out! The next clue is **trapped**. You'll need to read it out without 'cd'ing into the directory; otherwise, the clue will self destruct!
+    ```
+
+15. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/opt/linux/linux-5.4/tools/arch/arm64/include` directory, without 'cd'ing into it.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/include/x86_64-linux-gnu/c++/9$ ls /opt/linux/linux-5.4/tools/arch/arm64/include
+    GIST-TRAPPED  asm  uapi
+    ```
+    - From the output, I observed the next clue file, which was named `GIST-TRAPPED`.
+
+16. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/include/x86_64-linux-gnu/c++/9$ cat /opt/linux/linux-5.4/tools/arch/arm64/include/GIST-TRAPPED
+    Tubular find!
+    The next clue is in: /usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info
+
+    The next clue is **delayed** --- it will not become readable until you enter the directory with 'cd'.
+    ```
+
+17. **Navigating to the Specified Directory**:
+    - We need to be located in the path specified by the clue file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/include/x86_64-linux-gnu/c++/9$ cd /usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info
+    ```
+
+18. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info` directory.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info$ ls
+    INSTALLER  LICENSE.txt  METADATA  RECORD  REVELATION  WHEEL  pbr.json  top_level.txt
+    ```
+    - From the output, I observed the next clue file, which was named `REVELATION`.
+
+19. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info$ cat REVELATION
+    Tubular find!
+    The next clue is in: /opt/linux/linux-5.4/include/config/have/cmpxchg
+
+    Watch out! The next clue is **trapped**. You'll need to read it out without 'cd'ing into the directory; otherwise, the clue will self destruct!
+    ```
+
+20. **Identifying the Next Clue File**:
+    - We need to view all the files of the `/opt/linux/linux-5.4/include/config/have/cmpxchg` directory, without 'cd'ing into it.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info$ ls /opt/linux/linux-5.4/include/config/have/cmpxchg
+    WHISPER-TRAPPED  double.h  local.h
+    ```
+    - From the output, I observed the next clue file, which was named `WHISPER-TRAPPED`.
+
+21. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info$ cat /opt/linux/linux-5.4/include/config/have/cmpxchg/WHISPER-TRAPPED
+    Tubular find!
+    The next clue is in: /usr/local/lib/python3.8/dist-packages/angr/analyses/decompiler/structuring/__pycache__
+
+    The next clue is **hidden** --- its filename starts with a '.' character. You'll need to look for it using special options to 'ls'.
+    ```
+
+22. **Navigating to the Specified Directory**:
+    - We need to be located in the path specified by the clue file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/decorator-5.1.1.dist-info$ cd /usr/local/lib/python3.8/dist-packages/angr/analyses/decompiler/structuring/__pycache__
+    ```
+
+23. **Identifying the Last Clue File**:
+    - We need to view all the files of the `/usr/local/lib/python3.8/dist-packages/angr/analyses/decompiler/structuring/__pycache__` directory, including the hidden ones.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/angr/analyses/decompiler/structuring/__pycache__$ ls -a
+    .   .CUE                     dream.cpython-38.pyc    recursive_structurer.cpython-38.pyc  structurer_nodes.cpython-38.pyc
+    ..  __init__.cpython-38.pyc  phoenix.cpython-38.pyc  structurer_base.cpython-38.pyc
+    ```
+    - From the output, I observed the last clue file, which was named `.CUE`.
+
+24. **Reading the Next Clue File**:
+    - I read the identified file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/angr/analyses/decompiler/structuring/__pycache__$ cat .CUE
+    ```
+
+25. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~an-epic-filesystem-quest:/usr/local/lib/python3.8/dist-packages/angr/analyses/decompiler/structuring/__pycache__$ cat .CUE
+    CONGRATULATIONS! Your perserverence has paid off, and you have found the flag!
+    It is: pwn.college{Iot2UOagg9045KmxlaHo8aSBbng.dljM4QDL2YTN0czW}
+    ```
+
+## Key Takeaways
+- This multi-step problem reinforced the importance of understanding directory navigation and using multiple commands appropriately.
+- Careful reading and interpretation of clue files was crucial.
+
