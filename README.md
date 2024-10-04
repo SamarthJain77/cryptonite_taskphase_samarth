@@ -14,3 +14,4 @@
 - [home sweet home](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_Paths.md#home-sweet-home)
 ## Comprehending Commands
 - [cat: not the pet, but the command!](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#cat-not-the-pet-but-the-command)
+- [catting absolute paths](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#catting-absolute-paths)
