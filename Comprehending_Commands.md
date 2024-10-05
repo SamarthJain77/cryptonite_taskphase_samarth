@@ -533,7 +533,7 @@ This challenge is a treasure hunt using our understanding of basic Linux command
     ```
     - From the output, I observed the last clue file, which was named `.CUE`.
 
-24. **Reading the Next Clue File**:
+24. **Reading the Last Clue File**:
     - I read the identified file using the `cat` command.
     - Here’s the command I used and the output I got:
     ```bash
