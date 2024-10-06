@@ -1,8 +1,5 @@
 # cat: not the pet, but the command!
 
-## About the Challenge
-This challenge introduces the `cat` command, a tool in Linux used for displaying the content of files in the terminal. The name `cat` is short for **concatenate**, which reflects its ability to concatenate and display the content of one or more files.
-
 ## Process
 1. **Understanding the `cat` Command**:
     - The basic usage of `cat` is to read and display the content of a file.
@@ -35,15 +32,7 @@ This challenge introduces the `cat` command, a tool in Linux used for displaying
     pwn.college{8fo0nZ1k5L2RbwIM55Y68VbJOd2.dFzN1QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- The `cat` command is used for displaying file content and concatenating multiple files.
-- `cat <filename>` is used to read and output the content of a specific file.
-- `cat <file1> <file2> <file3>` is used to read and output the content of multiple files in a specific order.
-
 # catting absolute paths
-
-## About the Challenge
-In this challenge, we explore using `cat` to read files using **absolute paths**.
 
 ## Process
 1. **Understanding the `cat` Command with Absolute Paths**:
@@ -70,13 +59,7 @@ In this challenge, we explore using `cat` to read files using **absolute paths**
     pwn.college{shAmmrjCPe7RIs1HMKTTCq7E3rR.dlTM5QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- When using `cat` with absolute paths, you can access files directly without navigating through directories.
-
 # more catting practice
-
-## About the Challenge
-In this challenge, the focus is on using `cat` to access files located in deep directory structures using **absolute paths** without changing the current working directory.
 
 ## Process
 1. **Understanding the Limitation**:
@@ -101,13 +84,7 @@ In this challenge, the focus is on using `cat` to access files located in deep d
     pwn.college{8CtdCZx0vOpH-tOe1VAtLK8S6cd.dBjM5QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- The `cat` command can read files from any directory as long as the correct path is provided.
-
 # grepping for a needle in a haystack
-
-## About the Challenge
-In this challenge, we learn to use the `grep` command, a tool for searching text files for specific patterns or strings. The file provided (`/challenge/data.txt`) contains a hundred thousand lines of text, and the goal is to find and extract the flag using `grep`.
 
 ## Process
 1. **Understanding the `grep` Command**:
@@ -136,13 +113,7 @@ In this challenge, we learn to use the `grep` command, a tool for searching text
     pwn.college{06K1SJyk-Py2887DLt_WJsJ_JpB.ddTM4QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- The basic syntax of `grep` involves specifying the search string and the file path.
-
 # listing files
-
-## About the Challenge
-In this challenge, we are introduced to the `ls` command, which is used to list the contents of directories in Linux. This challenge requires us to find the executable file in the `/challenge` directory, which has been given a random name.
 
 ## Process
 1. **Understanding the `ls` Command**:
@@ -178,13 +149,7 @@ In this challenge, we are introduced to the `ls` command, which is used to list 
     pwn.college{U2JYRqIV_xHRIAzUi2VLuH607Ei.dhjM4QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- `ls` is used to explore and identify files within a directory, especially when the file names are unknown.
-
 # touching files
-
-## About the Challenge
-This challenge introduces us to the `touch` command, a simple command in Linux used to create empty files or update the timestamps of existing ones. The goal is to create two files, `/tmp/pwn` and `/tmp/college`, using `touch` and then execute the `/challenge/run` program to capture the flag.
 
 ## Process
 1. **Understanding the `touch` Command**:
@@ -224,14 +189,7 @@ This challenge introduces us to the `touch` command, a simple command in Linux u
     pwn.college{gNJPy1h8RYfZNfiOfarZsHUs1hJ.dBzM4QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- `touch` is a quick command for creating empty files without needing to open an editor.
-- `touch file1 file2 file3` is used to create multiple files.
-
 # removing files
-
-## About the Challenge
-In this challenge, we explore the `rm` command, which is used for removing files in Linux. The challenge involves deleting a file named `delete_me` that is automatically created in the home directory (`/home/hacker`). Once the file is successfully deleted, running `/challenge/check` will verify the deletion and display the flag.
 
 ## Process
 1. **Understanding the `rm` Command**:
@@ -264,13 +222,7 @@ In this challenge, we explore the `rm` command, which is used for removing files
     pwn.college{cYR_N1CyrMeD6XndpV61FEiGrTz.dZTOwUDL2YTN0czW}
     ```
 
-## Key Takeaway
-- The `rm` command is used for permanently removing unnecessary or temporary files.
-
 # hidden files
-
-## About the Challenge
-In this challenge, we explore the concept of hidden files in Linux. Hidden files are files that start with a `.` (dot) and are not listed by default when using the `ls` command. Using the `ls -a` command, which displays all files (including hidden ones), we need to locate the hidden flag file located in the root directory (`/`) and read its contents.
 
 ## Process
 1. **Understanding the `ls` Command with `-a` Option**:
@@ -314,13 +266,7 @@ In this challenge, we explore the concept of hidden files in Linux. Hidden files
     pwn.college{gns8xBoKtHXd8ZkPjsWP_yq039a.dBTN4QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- `ls -a` is used to view all files within a directory, including the hidden ones.
-
 # An Epic Filesystem Quest
-
-## About the Challenge
-This challenge is a treasure hunt using our understanding of basic Linux commands: `cd`, `ls`, and `cat`. Starting at the root directory (`/`), the goal is to follow a series of clues hidden in various directories until the final flag file is found.
 
 ## Process
 1. **Navigating to the Root Directory**:
@@ -549,14 +495,7 @@ This challenge is a treasure hunt using our understanding of basic Linux command
     It is: pwn.college{Iot2UOagg9045KmxlaHo8aSBbng.dljM4QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- This multi-step problem reinforced the importance of understanding directory navigation and using multiple commands appropriately.
-- Careful reading and interpretation of clue files was crucial.
-
 # making directories
-
-## About the Challenge
-This challenge introduces us to creating directories using the `mkdir` command and managing files within those directories. The goal is to use `mkdir` to create a directory and `touch` to create a file inside it. After setting up the directory and file structure, the `/challenge/run` program will validate our work and provide the flag if the structure matches the requirements.
 
 ## Process
 1. **Understanding the `mkdir` Command**:
@@ -612,14 +551,7 @@ This challenge introduces us to creating directories using the `mkdir` command a
     pwn.college{Uy6kjd2xxINIqJ69_Tubq_Wc10j.dFzM4QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- The `mkdir` command is used for creating directories.
-
 # finding files
-
-## About the Challenge
-This challenge focuses on the `find` command, a tool used to search for files and directories in the filesystem based on various criteria. The goal is to locate a file named `flag` that is hidden somewhere on the filesystem.
-
 
 ## Process
 1. **Understanding the `find` Command**:
@@ -669,5 +601,44 @@ This challenge focuses on the `find` command, a tool used to search for files an
     pwn.college{kwipyjjTRmUO9-dAzJ2k-z6K6NV.dJzM4QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- `find` is an essential tool for locating files in complex directory structures.
+# linking files
+
+## Process
+1. **Understanding Hard & Soft (Symbolic) Links**:
+    - Hard links are like multiple addresses leading directly to the same location.
+    - Symbolic links (symlinks) are references to the original file or directory. They point to the original file path, making the data accessible via different addresses.
+    - `ln -s <original_file_path> <link_path>` is used to create a symlink at `/path/to/symlink` that points to `/path/to/original`.
+    - We can identify symlinks using the `file` command, which shows the file type as a "symbolic link" along with the path it points to.
+
+2. **Identifying the Problem**:
+    - The script `/challenge/catflag` reads from `/home/hacker/not-the-flag` so we need to remove the `/home/hacker/not-the-flag` file and then create a new symlink from `/home/hacker/not-the-flag` to `/flag` to redirect it to the correct flag file.
+
+3. **Removing the `/home/hacker/not-the-flag` File**:
+    - I used the `rm` command to remove the file named `/home/hacker/not-the-flag`.
+   - Here’s the command I used:
+     ```bash
+     hacker@commands~linking-files:~$ rm /home/hacker/not-the-flag
+     ```
+
+4. **Creating the Symlink**:
+    - I used the `ln -s` command to create a symbolic link called `/home/hacker/not-the-flag` that points to `/flag.`
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~linking-files:~$ ln -s /flag /home/hacker/not-the-flag
+    ```
+     
+5. **Running the Challenge Script**:
+    - I executed the script `/challenge/catflag` to read the actual flag file.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~linking-files:~$ /challenge/catflag
+    ```
+
+6. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~linking-files:~$ /challenge/catflag
+    About to read out the /home/hacker/not-the-flag file!
+    pwn.college{Y1B3t60h1VqC7uyRo3tZbDxM3nT.dlTM1UDL2YTN0czW}
+    ```
