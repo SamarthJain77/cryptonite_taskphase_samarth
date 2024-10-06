@@ -553,3 +553,66 @@ This challenge is a treasure hunt using our understanding of basic Linux command
 - This multi-step problem reinforced the importance of understanding directory navigation and using multiple commands appropriately.
 - Careful reading and interpretation of clue files was crucial.
 
+# making directories
+
+## About the Challenge
+This challenge introduces us to creating directories using the `mkdir` command and managing files within those directories. The goal is to use `mkdir` to create a directory and `touch` to create a file inside it. After setting up the directory and file structure, the `/challenge/run` program will validate our work and provide the flag if the structure matches the requirements.
+
+## Process
+1. **Understanding the `mkdir` Command**:
+    - The `mkdir` command creates a new directory at the specified location.
+    - Example:
+    ```bash
+    hacker@commands~making-directories:~$ mkdir my_directory
+    hacker@commands~making-directories:~$ ls
+    my_directory
+    ```
+
+2. **Navigating to the `/tmp` Directory**:
+    - `/tmp` is a directory in Linux used for storing temporary files.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~making-directories:~$ cd /tmp
+    ```
+
+3. **Creating the `pwn` Directory**:
+    - I used the `mkdir` command to create a directory named `pwn`.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~making-directories:/tmp$ mkdir pwn
+    ```
+
+4. **Navigating into the `pwn` Directory**:
+    - I changed the directory to `pwn` using `cd` command.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~making-directories:/tmp$ cd pwn
+    ```
+
+5. **Creating the Required File**:
+   - I used the `touch` command to create an empty file named `college` in the `pwn` directory.
+   - Here’s the command I used:
+     ```bash
+     hacker@commands~making-directories:/tmp/pwn$ touch college
+     ```
+
+6. **Executing the `run` Program**:
+   - After creating the required file, I executed the `run` program present in the `challenge` directory.
+   - Here’s the command I used:
+     ```bash
+     hacker@commands~making-directories:/tmp/pwn$ /challenge/run
+     ```
+     
+7. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~making-directories:/tmp/pwn$ /challenge/run
+    Success! Here is your flag:
+    pwn.college{Uy6kjd2xxINIqJ69_Tubq_Wc10j.dFzM4QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- The `mkdir` command is used for creating directories.
+
+# finding files
