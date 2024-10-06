@@ -616,3 +616,58 @@ This challenge introduces us to creating directories using the `mkdir` command a
 - The `mkdir` command is used for creating directories.
 
 # finding files
+
+## About the Challenge
+This challenge focuses on the `find` command, a tool used to search for files and directories in the filesystem based on various criteria. The goal is to locate a file named `flag` that is hidden somewhere on the filesystem.
+
+
+## Process
+1. **Understanding the `find` Command**:
+    - `find` is used to search for files and directories within the filesystem.
+    - By default, `find` starts searching from the current directory if no path is specified.
+    - `find -name <filename>` is used to search for files or directories with a specific name.
+    - `find <directory>` is used to specify the starting directory for the search.
+
+2. **Using `find` to Search the Entire Filesystem**:
+    - We need to search the root directory (`/`) and look for files named `flag`.
+    - Here’s the command I used:
+    ```bash
+    hacker@commands~finding-files:~$ find / -name flag
+    ```
+
+3. **Interpreting the Search Results**:
+    - The output of the `find` command listed every file named `flag` under the root directory (`/`).
+    - Output:
+    ```bash
+    hacker@commands~finding-files:~$ find / -name flag
+    /usr/local/lib/python3.8/dist-packages/pwnlib/flag
+    /usr/local/share/radare2/5.9.5/flag
+    /usr/share/racket/pkgs/redex-pict-lib/redex/compiled/flag
+    /opt/pwndbg/.venv/lib/python3.8/site-packages/pwnlib/flag
+    /opt/radare2/libr/flag
+    /nix/store/1yagn5s8sf7kcs2hkccgf8d0wxlrv5sz-radare2-5.9.0/share/radare2/5.9.0/flag
+    /nix/store/pmvk2bk4p550w182rjfm529kfqddnvh3-python3.11-pwntools-4.12.0/lib/python3.11/site-packages/pwnlib/flag
+    ```
+    - Each of these files could potentially contain the correct flag, but some may be directories.
+
+4. **Reading the Files**:
+    - I used `cat` command to read each file sequentially until I found the correct one.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@commands~finding-files:~$ cat /usr/local/lib/python3.8/dist-packages/pwnlib/flag
+    cat: /usr/local/lib/python3.8/dist-packages/pwnlib/flag: Is a directory
+    hacker@commands~finding-files:~$ cat /usr/local/share/radare2/5.9.5/flag
+    cat: /usr/local/share/radare2/5.9.5/flag: Is a directory
+    hacker@commands~finding-files:~$ cat /usr/share/racket/pkgs/redex-pict-lib/redex/compiled/flag
+    ```
+     
+5. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@commands~finding-files:~$ cat /usr/share/racket/pkgs/redex-pict-lib/redex/compiled/flag
+    pwn.college{kwipyjjTRmUO9-dAzJ2k-z6K6NV.dJzM4QDL2YTN0czW}
+    ```
+
+## Key Takeaway
+- `find` is an essential tool for locating files in complex directory structures.
