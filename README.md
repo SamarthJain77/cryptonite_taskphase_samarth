@@ -23,3 +23,4 @@
 - [hidden files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#hidden-files)
 - [An Epic Filesystem Quest](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#an-epic-filesystem-quest)
 - [making directories](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#making-directories)
+- [finding files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#finding-files)
