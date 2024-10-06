@@ -1,8 +1,5 @@
 # The Root
 
-## About the Challenge
-In this challenge, we are introduced to the concept of the filesystem structure in Linux, which starts at the root directory, `/`. The objective is to run a program named `pwn` located directly under the root directory (`/`).
-
 ## Process
 1. **Understanding the Root Directory**:
     - The filesystem starts at the root directory `/`, which contains various directories and files.
@@ -25,14 +22,7 @@ In this challenge, we are introduced to the concept of the filesystem structure 
     pwn.college{AmzkcYReifDVVEO4N5oobBGHCnM.dhzN5QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- The **root directory (`/`)** is the starting point of the entire filesystem.
-- **Absolute paths** always start with `/` and specify the complete location of a file or program.
-
 # Program and absolute paths
-
-## About the Challenge
-In this challenge, we delve deeper into navigating the filesystem using absolute paths. The goal is to run a program named `run` located within the `/challenge` directory.
 
 ## Process
 1. **Understanding the File Path**:
@@ -56,13 +46,7 @@ In this challenge, we delve deeper into navigating the filesystem using absolute
     pwn.college{UTmMp6V3sTsqu4nvB6VpPzttSwJ.dVDN1QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- **Absolute paths** specify the exact location of a program or file, starting from the root directory (`/`).
-
 # Position thy self
-
-## About the Challenge
-In this challenge, we learn how to navigate the Linux filesystem using the `cd` (change directory) command. The objective is to execute the `run` program located in the `/challenge` directory, but from a specific path that the program specifies.
 
 ## Process
 1. **Understanding the `cd` Command**:
@@ -109,14 +93,7 @@ In this challenge, we learn how to navigate the Linux filesystem using the `cd` 
     pwn.college{AtFRGrHc_Q429It7b7QdF5NBl3t.dZDN1QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- The `cd` command is used to change the current working directory.
-- `cd <absolute_path>` is used for navigating directly to a specific location.
-
 # Position elsewhere
-
-## About the Challenge
-In this challenge, we continue practicing how to navigate the Linux filesystem using the `cd` (change directory) command. The objective is to execute the `run` program located in the `/challenge` directory, but from a different path that the program specifies.
 
 ## Process
 1. **Understanding the `cd` Command**:
@@ -163,14 +140,7 @@ In this challenge, we continue practicing how to navigate the Linux filesystem u
     pwn.college{orG6sJjz0CcyTyaAW0Aqc6HzCdt.ddDN1QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- The `cd` command is used to change the current working directory.
-- Use `cd <absolute_path>` for navigating directly to a specific location.
-
 # Position yet elsewhere
-
-## About the Challenge
-In this challenge, we continue exploring how to navigate the Linux filesystem using the `cd` (change directory) command. The objective is to execute the `run` program located in the `/challenge` directory, but from a different path that the program specifies.
 
 ## Process
 1. **Understanding the `cd` Command**:
@@ -217,14 +187,7 @@ In this challenge, we continue exploring how to navigate the Linux filesystem us
    pwn.college{4-NG-m9nljg3qpflKQF7jr1jP5H.dhDN1QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- The `cd` command is used to change the current working directory.
-- Use `cd <absolute_path>` for navigating directly to a specific location.
-
 # implicit relative paths, from /
-
-## About the Challenge
-In this challenge, we explore the concept of relative paths in the Linux filesystem. While absolute paths specify the complete location from the root directory (`/`), relative paths depend on the current working directory and do not begin with a `/`.
 
 ## Process
 1. **Understanding Relative Paths**:
@@ -265,13 +228,7 @@ In this challenge, we explore the concept of relative paths in the Linux filesys
     pwn.college{c82vLpewZdGlcNPhcdQov-JSF1X.dlDN1QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- The `..` operator is used to move up to the parent directory.
-
 # explicit relative paths, from /
-
-## About the Challenge
-This challenge focuses on using **explicit relative paths** in the Linux filesystem. Unlike "naked" relative paths that specify directories directly, explicit relative paths include entries such as `.` to refer to the current directory.
 
 ## Process
 1. **Understanding `.` in Explicit Relative Paths**:
@@ -310,14 +267,7 @@ This challenge focuses on using **explicit relative paths** in the Linux filesys
     pwn.college{MIuwfYvk9Pja092Ko4OeOnyDiNh.dBTN1QDL2YTN0czW}
     ```
 
-## Key Takeaways
-- The `.` operator refers to the current directory.
-- The `..` operator refers to the parent directory.
-
 # implicit relative path
-
-## About the Challenge
-This challenge introduces a common behavior in Linux where running a program located in the current directory using its "naked" path does not work as expected. The reason is that, by default, the shell does not search the current directory (`.`) for executable programs.
 
 ## Process
 1. **Understanding `./` to Explicitly Refer Programs in the Current Directory**:
@@ -354,13 +304,7 @@ This challenge introduces a common behavior in Linux where running a program loc
     pwn.college{wvPv9XAi699QyWQpmQZ7mJnrpM8.dFTN1QDL2YTN0czW}
     ```
 
-## Key Takeaway
-- Always use `./` to explicitly refer and run executable programs in the current directory.
-
 # home sweet home
-
-## About the Challenge
-This challenge introduces the concept of **home directory** in the Linux filesystem and the shorthand `~` that refers to a user's home directory. As the `hacker` user, our home directory is located at `/home/hacker`.
 
 ## Process
 1. **Understanding `~` Expansion**:
@@ -386,9 +330,3 @@ This challenge introduces the concept of **home directory** in the Linux filesys
     ... and reading it back to you:
     pwn.college{YcYTUT34x_hLUhctmoMC8YkWvgz.dNzM4QDL2YTN0czW}
     ```
-
-## Key Takeaways
-- The `~` symbol is a shorthand for referring to the user’s home directory.
-- When using `~` in paths, it only expands if it’s the first character in the path.
-- Typing `cd` without any arguments is a shortcut to navigate back to the home directory.
-
