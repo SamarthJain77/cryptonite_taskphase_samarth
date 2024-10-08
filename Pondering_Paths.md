@@ -1,6 +1,5 @@
 # The Root
 
-## Process
 1. **Understanding the Root Directory**:
     - The filesystem starts at the root directory `/`, which contains various directories and files.
     - For this challenge, we need to execute a program located directly at `/`.
@@ -24,7 +23,6 @@
 
 # Program and absolute paths
 
-## Process
 1. **Understanding the File Path**:
     - The program is located at `/challenge/run`.
     - This means the `run` program is inside the `/challenge` directory, which is located in the root directory (`/`).
@@ -48,7 +46,6 @@
 
 # Position thy self
 
-## Process
 1. **Understanding the `cd` Command**:
     - `cd` stands for "change directory" and is used to navigate between directories.
     - Syntax: `cd <path_to_directory>`
@@ -95,7 +92,6 @@
 
 # Position elsewhere
 
-## Process
 1. **Understanding the `cd` Command**:
     - `cd` stands for "change directory" and is used to change the shell’s current working directory.
     - Syntax: `cd <path_to_directory>`
@@ -142,7 +138,6 @@
 
 # Position yet elsewhere
 
-## Process
 1. **Understanding the `cd` Command**:
     - `cd` stands for "change directory" and is used to change the shell’s current working directory.
     - Syntax: `cd <path_to_directory>`
@@ -189,7 +184,6 @@
 
 # implicit relative paths, from /
 
-## Process
 1. **Understanding Relative Paths**:
     - A relative path does not start with a `/` and is based on the current working directory.
     - Example:
@@ -230,7 +224,6 @@
 
 # explicit relative paths, from /
 
-## Process
 1. **Understanding `.` in Explicit Relative Paths**:
   - `.` allows us to refer to the current directory explicitly.
   - Examples:
@@ -269,7 +262,6 @@
 
 # implicit relative path
 
-## Process
 1. **Understanding `./` to Explicitly Refer Programs in the Current Directory**:
   - To execute a program in the current directory, use `./<program_name>`.
   - The `./` indicates that the program is in the **current directory** and should be executed from there.
@@ -306,7 +298,6 @@
 
 # home sweet home
 
-## Process
 1. **Understanding `~` Expansion**:
   - When `~` is used at the beginning of a path, it expands to the absolute path of our home directory (`/home/hacker`).
   - Only the leading `~` is expanded; for instance, `~/file` becomes `/home/hacker/file`, but `~/~/file` would become `/home/hacker/~/file`.
