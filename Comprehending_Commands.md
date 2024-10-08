@@ -1,6 +1,5 @@
 # cat: not the pet, but the command!
 
-## Process
 1. **Understanding the `cat` Command**:
     - The basic usage of `cat` is to read and display the content of a file.
     - Example:
@@ -34,7 +33,6 @@
 
 # catting absolute paths
 
-## Process
 1. **Understanding the `cat` Command with Absolute Paths**:
     - `cat` can be used with absolute paths to read any accessible file without needing to change directories.
     - Syntax:
@@ -61,7 +59,6 @@
 
 # more catting practice
 
-## Process
 1. **Understanding the Limitation**:
     - In this challenge, the `cd` command cannot be used, preventing navigation to the directory containing the flag.
     - When `cd` is not allowed, the only way to access files in other directories is by using their absolute paths.
@@ -86,7 +83,6 @@
 
 # grepping for a needle in a haystack
 
-## Process
 1. **Understanding the `grep` Command**:
     - `grep` is a command-line utility for searching text files for lines that match a specified pattern.
     - Basic Syntax:
@@ -115,7 +111,6 @@
 
 # listing files
 
-## Process
 1. **Understanding the `ls` Command**:
     - `ls` is a command-line utility used for listing files and directories.
     - Basic Syntax:
@@ -151,7 +146,6 @@
 
 # touching files
 
-## Process
 1. **Understanding the `touch` Command**:
     - `touch` is primarily used to create empty files.
     - Basic Syntax:
@@ -191,7 +185,6 @@
 
 # removing files
 
-## Process
 1. **Understanding the `rm` Command**:
     - The `rm` command stands for "remove" and is used to delete files or directories.
     - Basic Syntax:
@@ -224,7 +217,6 @@
 
 # hidden files
 
-## Process
 1. **Understanding the `ls` Command with `-a` Option**:
     - By default, the `ls` command only displays visible files.
     - The `-a` option is used to list **all** files, including hidden ones.
@@ -268,7 +260,6 @@
 
 # An Epic Filesystem Quest
 
-## Process
 1. **Navigating to the Root Directory**:
     - We start with the current working directory set to `/`.
     - Here’s the command I used:
@@ -497,7 +488,6 @@
 
 # making directories
 
-## Process
 1. **Understanding the `mkdir` Command**:
     - The `mkdir` command creates a new directory at the specified location.
     - Example:
@@ -553,7 +543,6 @@
 
 # finding files
 
-## Process
 1. **Understanding the `find` Command**:
     - `find` is used to search for files and directories within the filesystem.
     - By default, `find` starts searching from the current directory if no path is specified.
@@ -603,7 +592,6 @@
 
 # linking files
 
-## Process
 1. **Understanding Hard & Soft (Symbolic) Links**:
     - Hard links are like multiple addresses leading directly to the same location.
     - Symbolic links (symlinks) are references to the original file or directory. They point to the original file path, making the data accessible via different addresses.
