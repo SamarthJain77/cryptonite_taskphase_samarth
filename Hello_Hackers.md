@@ -1,6 +1,5 @@
 # Intro to Commands
 
-## Process
 1. **Understanding the Prompt**:
     - When we see the prompt `hacker@hello~intro-to-commands:~$`, it indicates that the shell is ready to accept commands.
     - For example:
@@ -29,7 +28,6 @@
 
 # Intro to Arguments
 
-## Process
 1. **Understanding the Prompt**:
     - When we see the prompt `hacker@hello~intro-to-arguments:~$`, it indicates that the shell is ready to accept commands.
     - For example:
