@@ -33,6 +33,13 @@
 - [Searching For Manuals](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#searching-for-manuals)
 - [Helpful Programs](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#helpful-programs)
 - [Help for Builtins](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#help-for-builtins)
+## File Globbing
+- [Matching with *](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#matching-with-)
+- [Matching with ?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#matching-with--1)
+- [Matching with []](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#matching-with--2)
+- [Matching paths with []](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#matching-paths-with-)
+- [Mixing globs](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#mixing-globs)
+- [Exclusionary globbing](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#exclusionary-globbing)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
