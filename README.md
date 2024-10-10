@@ -25,6 +25,14 @@
 - [making directories](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#making-directories)
 - [finding files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#finding-files)
 - [linking files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Comprehending_Commands.md#linking-files)
+## Digesting Documentation
+- [Learning From Documentation](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#learning-from-documentation)
+- [Learning Complex Usage](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#learning-complex-usage)
+- [Reading Manuals](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#reading-manuals)
+- [Searching Manuals](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#searching-manuals)
+- [Searching For Manuals](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#searching-for-manuals)
+- [Helpful Programs](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#helpful-programs)
+- [Help for Builtins](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Digesting_Documentation.md#help-for-builtins)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
