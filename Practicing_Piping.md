@@ -318,12 +318,89 @@
 
 # Grepping errors
 
+1. **Understanding the `>&` Operator**:
+    - This operator redirects one file descriptor to another.
+    - Example:
+    `2>&1` redirects `stderr (fd 2)` to `stdout (fd 1)`, combining both channels.
 
+2. **Executing the Required Command with Pipe and `>&` Operator**:
+    - We'll use `2>&1` operator to redirect the `error output (fd 2)` to `standard output (fd 1)`. This combines both error messages and standard output into one stream. Then we need to pipe the output of `/challenge/run` program directly to `grep` command.
+    - Here’s the command I used:
+    ```bash
+    hacker@piping~grepping-errors:~$ /challenge/run 2>& 1 | grep pwn.college
+    ```
+
+3. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@piping~grepping-errors:~$ /challenge/run 2>& 1 | grep pwn.college
+    [INFO] WELCOME! This challenge makes the following asks of you:
+    [INFO] - the challenge checks for a specific process at the other end of stderr : grep
+    [INFO] - the challenge will output a reward file if all the tests pass : /challenge/.data.txt
+
+    [HYPE] ONWARDS TO GREATNESS!
+
+    [INFO] This challenge will perform a bunch of checks.
+    [INFO] If you pass these checks, you will receive the /challenge/.data.txt file.
+
+    [TEST] You should have redirected my stderr to another process. Checking...
+    [TEST] Performing checks on that process!
+
+    [INFO] The process' executable is /nix/store/xpq4yhadyhazkcsggmqd7rsgvxb3kjy4-gnugrep-3.11/bin/grep.
+    [INFO] This might be different than expected because of symbolic links (for example, from /usr/bin/python to /usr/bin/python3 to /usr/bin/python3.8).
+    [INFO] To pass the checks, the executable must be grep.
+
+    [PASS] You have passed the checks on the process on the other end of my stderr!
+    [PASS] Success! You have satisfied all execution requirements.
+    pwn.college{IOnWYBo0AkDF1UgDmvpHMgZdbZQ.dVDM5QDL2YTN0czW}
+    ```
 
 # Duplicating piped data with tee
 
+1. **Understanding the `tee` Command**:
+    - The basic usage of `tee` is that it duplicates the standard input, sending one copy to a file and the other to standard output.
+    - Example:
+    ```bash
+    echo "hi" | tee pwn.txt college.txt
+    ```
+    - This command sends the output of `echo "hi"` into the `tee` command and then `tee` sends the output both to the terminal (stdout) and to the files `pwn.txt` and `college.txt`.
 
+2. **Piping `/challenge/pwn` to `/challenge/college` Using `tee`**:
+    - We need to pipe the output of `/challenge/pwn` into `/challenge/college` and in between need to intercept and display the data using `tee`.
+    - Here’s the command I used:
+    ```bash
+    hacker@piping~duplicating-piped-data-with-tee:~$ /challenge/pwn | tee pwn_output | /challenge/college
+    ```
 
+3. **Reading the Intercepted Data File**:
+    - I read the `pwn_output` file using the `cat` command.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@piping~duplicating-piped-data-with-tee:~$ cat pwn_output
+    Usage: /challenge/pwn --secret [SECRET_ARG]
+
+    SECRET_ARG should be "4LC7hZNI"
+    ```
+
+4. **Executing the Required Command with Pipe and Correct Argument**:
+    - I executed the `/challenge/pwn` program with the argument `--secret 4LC7hZNI` and then piped the output directly to `/challenge/college` program.
+    - Here’s the command I used:
+    ```bash
+    hacker@piping~duplicating-piped-data-with-tee:~$ /challenge/pwn --secret 4LC7hZNI | /challenge/college
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@piping~duplicating-piped-data-with-tee:~$ /challenge/pwn --secret 4LC7hZNI | /challenge/college
+    Processing...
+    Correct! Passing secret value to /challenge/college...
+    Great job! Here is your flag:
+    pwn.college{4LC7hZNIouh1u-eCQGV6FyE87WE.dFjM5QDL2YTN0czW}
+    ```
+    
 # Writing to multiple programs
 
 
