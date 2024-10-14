@@ -40,6 +40,18 @@
 - [Matching paths with []](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#matching-paths-with-)
 - [Mixing globs](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#mixing-globs)
 - [Exclusionary globbing](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/File_Globbing.md#exclusionary-globbing)
+## Practicing Piping
+- [Redirecting output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#redirecting-output)
+- [Redirecting more output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#redirecting-more-output)
+- [Appending output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#appending-output)
+- [Redirecting errors](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#redirecting-errors)
+- [Redirecting input](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#redirecting-input)
+- [Grepping stored results](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#grepping-stored-results)
+- [Grepping live output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#grepping-live-output)
+- [Grepping errors](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#grepping-errors)
+- [Duplicating piped data with tee](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#duplicating-piped-data-with-tee)
+- [Writing to multiple programs](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#writing-to-multiple-programs)
+- [Split-piping stderr and stdout](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#split-piping-stderr-and-stdout)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
