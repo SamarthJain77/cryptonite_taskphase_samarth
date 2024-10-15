@@ -189,7 +189,7 @@
     and submit it!
     ```
 
-3. **Printing the contents of `PWN` variable**:
+3. **Printing the contents of the `PWN` variable**:
     - We need to use the `echo` command followed by `$PWN` argument to print the contents of the `PWN` variable.
     - Here’s the command I used:
     ```bash
