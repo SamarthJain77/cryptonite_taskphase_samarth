@@ -203,3 +203,71 @@
     hacker@variables~storing-command-output:~$ echo $PWN
     pwn.college{435AI44jZlGyLEzG2DocbcBtaqg.dVzN0UDL2YTN0czW}
     ```
+
+# Reading Input
+
+1. **Understanding the `read` Command and the `-p` Argument**:
+    - `read` is a built-in command in bash that reads a line of input from standard input and stores it in a variable.
+    - `-p` argument allows us to specify a prompt for the user, so it's clear when input is expected.
+    - Example:
+    ```bash
+    hacker@variables~reading-input:~$ read MY_VARIABLE
+    Hello!
+    hacker@variables~reading-input:~$ echo "You entered: $MY_VARIABLE"
+    You entered: Hello!
+    hacker@variables~reading-input:~$ read -p "Enter value for PWN: " PWN
+    Enter value for PWN: COLLEGE
+    hacker@variables~reading-input:~$ echo "The PWN variable is set to: $PWN"
+    The PWN variable is set to: COLLEGE
+    ```
+
+2. **Executing the Required Command**:
+    - We need to use the `read` command to prompt the user for input and store it in the `PWN` variable and then we need to provide the value `COLLEGE` when prompted.
+    - Here’s the command I used:
+    ```bash
+    hacker@variables~reading-input:~$ read PWN
+    COLLEGE
+    ```
+
+3. **Printing the contents of the `PWN` variable**:
+    - We need to use the `echo` command followed by `$PWN` argument to print the contents of the `PWN` variable.
+    - Here’s the command I used:
+    ```bash
+    hacker@variables~reading-input:~$ echo $PWN
+    ```
+
+4. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@variables~reading-input:~$ echo $PWN
+    COLLEGE
+    You've set the PWN variable properly! As promised, here is the flag:
+    pwn.college{4o0Sy31YRYm-xHVp37_UNc02Dq_.dhzN1QDL2YTN0czW}
+    ```
+
+# Reading Files
+
+1. **Executing the Required Command with `read` command and File Redirection**:
+    - We need to use the `read` command to read the contents of `/challenge/read_me` directly into the `PWN` variable.
+    - Here’s the command I used:
+    ```bash
+    hacker@variables~reading-files:~$ read PWN < /challenge/read_me
+    ```
+
+2. **Printing the contents of the `PWN` variable**:
+    - We need to use the `echo` command followed by `$PWN` argument to print the contents of the `PWN` variable.
+    - Here’s the command I used:
+    ```bash
+    hacker@variables~reading-files:~$ echo $PWN
+    ```
+
+3. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@variables~reading-files:~$ echo $PWN
+    KTbHwAsnArSlIegx6x1B21koOMWkQUsV4nbpz8TkVXum1v15CHvaK
+    You've set the PWN variable properly! As promised, here is the flag:
+    pwn.college{oVcQvBnjryyVyd3Em31pnmxkKWN.dBjM4QDL2YTN0czW}
+    ```
