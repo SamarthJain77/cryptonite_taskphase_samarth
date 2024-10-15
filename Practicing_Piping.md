@@ -433,3 +433,19 @@
 
 # Split-piping stderr and stdout
 
+1. **Executing the Required Command with `|` Operator and `Process Substitution`**:
+    - We need to use process substitution to redirect `stderr` to `/challenge/the` and then use `|` to redirect `stdout` to `/challenge/planet`.
+    - Here’s the command I used:
+    ```bash
+    hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack 2> >(/challenge/the) | /challenge/planet
+    ```
+
+2. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack 2> >(/challenge/the) | /challenge/planet
+    Congratulations, you have learned a redirection technique that even experts 
+    struggle with! Here is your flag:
+    pwn.college{YQTd0_KKho384OVhhE5MVD4KE66.dFDNwYDL2YTN0czW}
+    ```
