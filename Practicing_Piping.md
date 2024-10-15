@@ -412,7 +412,7 @@
     KCAH
     ```
 
-2. **Piping `/challenge/hack` to `/challenge/the` and `/challenge/planet` using Process Substitution**:
+2. **Piping `/challenge/hack` to `/challenge/the` and `/challenge/planet` using `Process Substitution`**:
     - We need to run the `/challenge/hack` command and pipe its output to both the `/challenge/the` and `/challenge/planet` commands.
     - Here’s the command I used:
     ```bash
