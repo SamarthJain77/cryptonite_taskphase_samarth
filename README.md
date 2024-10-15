@@ -52,6 +52,15 @@
 - [Duplicating piped data with tee](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#duplicating-piped-data-with-tee)
 - [Writing to multiple programs](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#writing-to-multiple-programs)
 - [Split-piping stderr and stdout](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Practicing_Piping.md#split-piping-stderr-and-stdout)
+## Shell Variables
+- [Printing Variables](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#printing-variables)
+- [Setting Variables](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#setting-variables)
+- [Multi-word Variables](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#multi-word-variables)
+- [Exporting Variables](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#exporting-variables)
+- [Printing Exported Variables](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#printing-exported-variables)
+- [Storing Command Output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#storing-command-output)
+- [Reading Input](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#reading-input)
+- [Reading Files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#reading-files)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
