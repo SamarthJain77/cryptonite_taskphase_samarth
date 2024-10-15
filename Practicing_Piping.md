@@ -403,7 +403,33 @@
     
 # Writing to multiple programs
 
+1. **Understanding `Process Substitution`**:
+    - In bash, process substitution (`>(command)`) creates a named pipe that allows data to be passed as input to another command.
+    - Example:
+    ```bash
+    hacker@piping~writing-to-multiple-programs:~$ echo HACK | tee >(rev)
+    HACK
+    KCAH
+    ```
 
+2. **Piping `/challenge/hack` to `/challenge/the` and `/challenge/planet` using Process Substitution**:
+    - We need to run the `/challenge/hack` command and pipe its output to both the `/challenge/the` and `/challenge/planet` commands.
+    - Here’s the command I used:
+    ```bash
+    hacker@piping~writing-to-multiple-programs:~$ /challenge/hack | tee >(/challenge/the) | tee >(/challenge/planet)
+    ```
+
+3. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    This secret data must directly and simultaneously make it to /challenge/the and 
+    /challenge/planet. Don't try to copy-paste it; it changes too fast.
+    1331319098239431697
+    Congratulations, you have duplicated data into the input of two programs! Here 
+    is your flag:
+    pwn.college{U2-7WqQvt1iQPbKn_crLLzTcdix.dBDO0UDL2YTN0czW}
+    ```
 
 # Split-piping stderr and stdout
 
