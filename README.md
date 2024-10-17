@@ -61,6 +61,16 @@
 - [Storing Command Output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#storing-command-output)
 - [Reading Input](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#reading-input)
 - [Reading Files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Shell_Variables.md#reading-files)
+## Processes and Jobs
+- [Listing Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#listing-processes)
+- [Killing Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#killing-processes)
+- [Interrupting Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#interrupting-processes)
+- [Suspending Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#suspending-processes)
+- [Resuming Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#resuming-processes)
+- [Backgrounding Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#backgrounding-processes)
+- [Foregrounding Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#foregrounding-processes)
+- [Starting Backgrounded Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#starting-backgrounded-processes)
+- [Process Exit Codes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#process-exit-codes)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
