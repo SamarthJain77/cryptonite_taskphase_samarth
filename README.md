@@ -71,6 +71,10 @@
 - [Foregrounding Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#foregrounding-processes)
 - [Starting Backgrounded Processes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#starting-backgrounded-processes)
 - [Process Exit Codes](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Processes_and_Jobs.md#process-exit-codes)
+## Perceiving Permissions
+- [Changing File Ownership](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#changing-file-ownership)
+- [Groups and Files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#groups-and-files)
+- [Fun With Groups Names](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#fun-with-groups-names)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
