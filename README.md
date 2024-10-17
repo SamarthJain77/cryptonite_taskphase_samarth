@@ -75,6 +75,11 @@
 - [Changing File Ownership](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#changing-file-ownership)
 - [Groups and Files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#groups-and-files)
 - [Fun With Groups Names](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#fun-with-groups-names)
+- [Changing Permissions](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#changing-permissions)
+- [Executable Files](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#executable-files)
+- [Permission Tweaking Practice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#permission-tweaking-practice)
+- [Permissions Setting Practice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#permissions-setting-practice)
+- [The SUID Bit](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#the-suid-bit)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
