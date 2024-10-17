@@ -131,3 +131,45 @@
     hacker@permissions~fun-with-groups-names:~$ cat /flag
     pwn.college{sUsvH6315ibVcgbkX_wZ2oREbbC.dJzNyUDL2YTN0czW}
     ```
+
+# Changing Permissions
+
+1. **Understanding the `id` Command**:
+    - `id` is a command used to display details such as the `user ID (UID)`, `group ID (GID)`, and the groups a user belongs to.
+    - Example:
+    ```bash
+    hacker@permissions~fun-with-groups-names:~$ id
+    uid=1000(hacker) gid=1000(hacker) groups=1000(hacker)
+    hacker@permissions~fun-with-groups-names:~$
+    ```
+
+2. **Identifying the Randomized Group Name**:
+    - We need to use the `id` command to identify the randomized group we belong to.
+    - Here’s the command I used and the output I got:
+    ```bash
+    hacker@permissions~fun-with-groups-names:~$ id
+    uid=1000(hacker) gid=1000(grp12549) groups=1000(grp12549)
+    ```
+    - From the output, I observed the randomized group, which was named `grp12549`.
+
+3. **Changing Group Ownership of the `/Flag` File**:
+    - We need to use the `chgrp` command to change the ownership of `/flag` to the `grp12549` group.
+    - Here’s the command I used:
+    ```bash
+    hacker@permissions~fun-with-groups-names:~$ chgrp grp12549 /flag
+    ```
+
+4. **Using `cat` to Read the `/flag` File**:
+    - After gaining the ownership, we need to read and display the content of the `/flag` file.
+    - Here’s the command I used:
+    ```bash
+    hacker@permissions~fun-with-groups-names:~$ cat /flag
+    ```
+
+5. **Capturing the Flag**:
+    - After running the command, the terminal displays the flag.
+    - Output:
+    ```bash
+    hacker@permissions~fun-with-groups-names:~$ cat /flag
+    pwn.college{sUsvH6315ibVcgbkX_wZ2oREbbC.dJzNyUDL2YTN0czW}
+    ```
