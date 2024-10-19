@@ -88,7 +88,7 @@
     ```
 
 2. **Changing File Permissions of the `y.sh` File**:
-    - We need to use the `chmod` command to modify the `y.sh` file’s permissions to make it readable.
+    - We need to use the `chmod` command to modify the `y.sh` file’s permissions to make it executable.
     - Here’s the command I used:
     ```bash
     hacker@chaining~executable-shell-scripts:~$ chmod u+x y.sh
