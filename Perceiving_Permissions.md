@@ -1,6 +1,20 @@
 # Changing File Ownership
 
-1. **Understanding the `chown` Command**:
+1. **Understanding the `ls` Command with `-l` Option**:
+    - By default, the `ls` command only displays visible files.
+    - The `-l` option is used to check out permissions of a file or directory.
+    - Example:
+    ```bash
+    hacker@permissions~changing-file-ownership:~$ mkdir pwn_directory
+    hacker@permissions~changing-file-ownership:~$ touch college_file
+    hacker@permissions~changing-file-ownership:~$ ls -l
+    total 4
+    -rw-r--r-- 1 hacker hacker    0 May 22 13:42 college_file
+    drwxr-xr-x 2 hacker hacker 4096 May 22 13:42 pwn_directory
+    hacker@permissions~changing-file-ownership:~$
+    ```
+    
+2. **Understanding the `chown` Command**:
     - `chown` is a command used to change the ownership of a file to another user or group.
     - Basic Syntax:
     ```bash
@@ -22,21 +36,21 @@
     hacker@permissions~changing-file-ownership:~$
     ```
 
-2. **Changing User Ownership of the `/flag` File**:
+3. **Changing User Ownership of the `/flag` File**:
     - We need to use the `chown` command to change the ownership of `/flag` to the `hacker` user.
     - Here’s the command I used:
     ```bash
     hacker@permissions~changing-file-ownership:~$ chown hacker /flag
     ```
 
-3. **Using `cat` to Read the `/flag` File**:
+4. **Using `cat` to Read the `/flag` File**:
     - After gaining the ownership, we need to read and display the content of the `/flag` file.
     - Here’s the command I used:
     ```bash
     hacker@permissions~changing-file-ownership:~$ cat /flag
     ```
 
-4. **Capturing the Flag**:
+5. **Capturing the Flag**:
     - After running the command, the terminal displays the flag.
     - Output:
     ```bash
