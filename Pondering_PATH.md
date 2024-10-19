@@ -62,17 +62,17 @@
 # Adding Commands
 
 1. **Writing the Shell Script**:
-    - We need to create a new shell script named `win.sh` and then write the command `cat /flag` inside it.
+    - We need to create a new shell script named `win` and then write the command `cat /flag` inside it.
     - Here’s the command I used:
     ```bash
-    hacker@path~adding-commands:~$ echo cat /flag > win.sh
+    hacker@path~adding-commands:~$ echo cat /flag > win
     ```
 
-2. **Changing File Permissions of the `win.sh` File**:
-    - We need to use the `chmod` command to modify the `win.sh` file’s permissions to make it executable.
+2. **Changing File Permissions of the `win` File**:
+    - We need to use the `chmod` command to modify the `win` file’s permissions to make it executable.
     - Here’s the command I used:
     ```bash
-    hacker@path~adding-commands:~$ chmod +x win.sh
+    hacker@path~adding-commands:~$ chmod +x win
     ```
 
 3. **Modifying the `PATH` Variable**:
@@ -101,17 +101,17 @@
 # Hijacking Commands
 
 1. **Writing the Shell Script**:
-    - We need to create a new shell script named `rm.sh` and then write the command `cat /flag` inside it.
+    - We need to create a new shell script named `rm` and then write the command `cat /flag` inside it.
     - Here’s the command I used:
     ```bash
-    hacker@path~hijacking-commands:~$ echo cat /flag > rm.sh
+    hacker@path~hijacking-commands:~$ echo cat /flag > rm
     ```
 
-2. **Changing File Permissions of the `rm.sh` File**:
-    - We need to use the `chmod` command to modify the `rm.sh` file’s permissions to make it executable.
+2. **Changing File Permissions of the `rm` File**:
+    - We need to use the `chmod` command to modify the `rm` file’s permissions to make it executable.
     - Here’s the command I used:
     ```bash
-    hacker@path~hijacking-commands:~$ chmod +x rm.sh
+    hacker@path~hijacking-commands:~$ chmod +x rm
     ```
 
 3. **Modifying the `PATH` Variable**:
