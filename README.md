@@ -80,6 +80,21 @@
 - [Permission Tweaking Practice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#permission-tweaking-practice)
 - [Permissions Setting Practice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#permissions-setting-practice)
 - [The SUID Bit](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Perceiving_Permissions.md#the-suid-bit)
+## Untangling Users
+- [Becoming root with su](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Untangling_Users.md#becoming-root-with-su)
+- [Other users with su](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Untangling_Users.md#other-users-with-su)
+- [Cracking passwords](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Untangling_Users.md#cracking-passwords)
+- [Using sudo](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Untangling_Users.md#using-sudo)
+## Chaining Commands
+- [Chaining with Semicolons](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Chaining_Commands.md#chaining-with-semicolons)
+- [Your First Shell Script](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Chaining_Commands.md#your-first-shell-script)
+- [Redirecting Script Output](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Chaining_Commands.md#redirecting-script-output)
+- [Executable Shell Scripts](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Chaining_Commands.md#executable-shell-scripts)
+## Pondering PATH
+- [The PATH Variable](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_PATH.md#the-path-variable)
+- [Setting PATH](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_PATH.md#setting-path)
+- [Adding Commands](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_PATH.md#adding-commands)
+- [Hijacking Commands](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Pondering_PATH.md#hijacking-commands)
 ## OASIS CTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
