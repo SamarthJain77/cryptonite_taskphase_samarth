@@ -107,7 +107,7 @@
     hacker@path~hijacking-commands:~$ echo cat /flag > rm.sh
     ```
 
-2. **Changing File Permissions of the `win.sh` File**:
+2. **Changing File Permissions of the `rm.sh` File**:
     - We need to use the `chmod` command to modify the `rm.sh` file’s permissions to make it executable.
     - Here’s the command I used:
     ```bash
