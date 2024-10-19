@@ -827,7 +827,7 @@
     ```
     - The `s` part in place of the executable bit means that the program is executable with `SUID`. It means that, regardless of what user runs the program (as long as they have executable permissions), the program will execute as the owner user.
     - As the owner of a file, we can set the `SUID` bit using `chmod`.
-    - - Basic Syntax:
+    - Basic Syntax:
     ```bash
     chmod u+s [program]
     ```
