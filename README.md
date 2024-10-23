@@ -1,4 +1,5 @@
 # cryptonite_taskphase_samarth
+![Image 23-10-24 at 23 27](https://github.com/user-attachments/assets/24163e32-f8b8-4eab-884c-b32f722f450c)
 ## Hello Hackers
 - [Intro to Commands](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Hello_Hackers.md#intro-to-commands)
 - [Intro to Arguments](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Hello_Hackers.md#intro-to-arguments)
