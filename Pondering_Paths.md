@@ -158,7 +158,7 @@
     ```
 
 3. **Changing the Directory Using `cd`**:
-    - Next, I used the `cd` command to navigate to the `/system/kernel` directory.
+    - Next, I used the `cd` command to navigate to the `/sys/kernel` directory.
     - Here’s the command I used:
     ```bash
     hacker@paths~position-yet-elsewhere:~$ cd /sys/kernel
