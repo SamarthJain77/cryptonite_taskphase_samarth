@@ -285,7 +285,7 @@
     hacker@man~helpful-programs:~$ cd /
     ```
 
-2. **Understanding the `help` Comman**:
+2. **Understanding the `help` Command**:
     -  The `help` command provides information on shell builtins, including usage, syntax, and available options where shell builtins are commands that are executed directly by the shell without launching a separate process.
 
 3. **Retrieving the List of Builtins**:
