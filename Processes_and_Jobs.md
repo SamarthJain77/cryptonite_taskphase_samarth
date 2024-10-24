@@ -18,7 +18,7 @@
     hacker       695     571  0 05:35 pts/0    00:00:00 ps -ef
     hacker@processes~listing-processes:~$
     ```
-    - BSD Syntax: We can use `a` to list processes for all users, `x` to list processes that aren't running in a terminal and `u` for a user-readable output. These can be combined into a single argument `aux`.
+    - We can use `a` to list processes for all users, `x` to list processes that aren't running in a terminal and `u` for a user-readable output. These can be combined into a single argument `aux`.
     - Example:
     ```bash
     hacker@processes~listing-processes:~$ ps aux
