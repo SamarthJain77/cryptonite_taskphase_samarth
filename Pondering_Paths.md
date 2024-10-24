@@ -25,7 +25,7 @@
 
 1. **Understanding the File Path**:
     - The program is located at `/challenge/run`.
-    - This means the `run` program is inside the `/challenge` directory, which is located in the root directory (`/`).
+    - This means the `run` program is inside the `challenge` directory, which is located in the root directory (`/`).
 
 2. **Executing the `run` Program**:
     - To solve this challenge, we need to use the absolute path `/challenge/run` to run the program.
@@ -240,7 +240,7 @@
 
 3. **Identifying the Relative Path to the `run` Program**:
     - The challenge requires us to use explicit relative paths incorporating `.`.
-    - Since the `run` program is located in the `/challenge` directory, the relative path to the program is `./challenge/run`.
+    - Since the `run` program is located in the `challenge` directory, the relative path to the program is `./challenge/run`.
 
 4. **Running the Program Using the Relative Path**:
     - I executed the `run` program using the identified relative path.
@@ -276,7 +276,7 @@
 
 3. **Identifying the Relative Path to the `run` Program**:
     - The challenge requires us to invoke the `run` program using an explicit relative path indicating that it is being executed from the current directory.
-    - Since the `run` program is located in the `/challenge` directory, the relative path to the program is `./run`.
+    - Since the `run` program is located in the `challenge` directory, the relative path to the program is `./run`.
 
 4. **Running the Program Using the Relative Path**:
     - I executed the `run` program using the identified relative path.
