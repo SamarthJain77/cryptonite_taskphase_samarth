@@ -323,7 +323,7 @@
      ```
 
 4. **Foregrounding the `run` Program**:
-   - We need to use the `bg` command to resume the process in the background.
+   - We need to use the `fg` command to resume the process in the foreground.
    - Here’s the command I used and the output I got:
      ```bash
      hacker@processes~foregrounding-processes:~$ fg
