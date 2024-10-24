@@ -174,10 +174,8 @@
     hacker@man~searching-for-manuals:/$ man man
     ```
 
-3. **Understanding the Search Features of the `man` Command**:
-    - `man [man options] [[section] page ...]`: This option displays the manual page for a command when we specify the section and page (or command name) we want to view. 
-    - `man -k [apropos options] keyword`: This command searches for keywords in all available man pages.
-    - `man -w [man options] page`: This command displays the path to the manual page(s).
+3. **Understanding the Search Feature of the `man` Command**:
+    - `man -k [keyword]`: This command searches for keywords in all available man pages.
 
 4. **Searching the Man Page Database**:
     - I used `man -k` to search for a man page related to the challenge.
