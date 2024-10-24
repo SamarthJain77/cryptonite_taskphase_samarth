@@ -113,7 +113,6 @@
 
 1. **Understanding the `/etc/shadow` File**:
     - This file stores password hashes in Linux systems, separated by colons. The second field contains the hashed password for each user, while some accounts have login disabled (denoted by `*` or `!`), or no password at all (denoted by a blank field).
-    - By using the `su` command, we can switch to another user account. When switching to the root user, the `su` command prompts for the root password. If the correct password is entered, we are granted a root shell.
     - Example:
     ```bash
     root:$6$s74oZg/4.RnUvwo2$hRmCHZ9rxX56BbjnXcxa0MdOsW2moiW8qcAl/Aoc7NEuXl2DmJXPi3gLp7hmyloQvRhjXJ.wjqJ7PprVKLDtg/:19921:0:99999:7:::
