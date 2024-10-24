@@ -176,12 +176,8 @@
 
 3. **Understanding the Search Features of the `man` Command**:
     - `man [man options] [[section] page ...]`: This option displays the manual page for a command when we specify the section and page (or command name) we want to view. 
-    - `man -k [apropos options] keyword`: This command searches for keywords in the short descriptions and names of all available man pages.
-    - `man -K [man options] [section] term`: This option performs a full-text search through all man pages to find instances of a specified keyword.
-    - `man -f [whatis options] page`: This command displays a short description for each manual page provided.
-    - `man -l [man options] file`: This option is used to view a local manual page from a file.
+    - `man -k [apropos options] keyword`: This command searches for keywords in all available man pages.
     - `man -w [man options] page`: This command displays the path to the manual page(s).
-    - `man -W [man options] page`: This option displays the path to all available manual pages.
 
 4. **Searching the Man Page Database**:
     - I used `man -k` to search for a man page related to the challenge.
