@@ -1,1 +1,10 @@
-
+## OASIS CTF
+- [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#ready-player-one)
+- [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#arte-miss)
+- [Jekylle and Hide!](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#jekylle-and-hide)
+- [Key-Key do you love me?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#key-key-do-you-love-me)
+- [Knock Knock](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#knock-knock)
+- [Microsoft StrongEdge](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#microsoft-strongedge)
+- [Not Noice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#not-noice)
+- [Git Gud](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#git-gud)
+- [I have been falling for 30 minutes!](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#i-have-been-falling-for-30-minutes)
