@@ -14,14 +14,6 @@
 - [Untangling Users](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Untangling_Users.md)
 - [Chaining Commands](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Chaining_Commands.md)
 - [Pondering PATH](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Pondering_PATH.md)
-## OASIS CTF
-- [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#ready-player-one)
-- [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#arte-miss)
-- [Jekylle and Hide!](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#jekylle-and-hide)
-- [Key-Key do you love me?](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#key-key-do-you-love-me)
-- [Knock Knock](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#knock-knock)
-- [Microsoft StrongEdge](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#microsoft-strongedge)
-- [Not Noice](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#not-noice)
-- [Git Gud](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#git-gud)
-- [I have been falling for 30 minutes!](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/OASIS_CTF.md#i-have-been-falling-for-30-minutes)
-
+## Capture the Flag
+- [Readme CTF](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/Readme_CTF.md)
+- [OASIS CTF](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md)
