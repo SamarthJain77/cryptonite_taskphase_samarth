@@ -1,5 +1,4 @@
 # cryptonite_taskphase_samarth
-![Image 23-10-24 at 23 27](https://github.com/user-attachments/assets/24163e32-f8b8-4eab-884c-b32f722f450c)
 <img src="https://github.com/user-attachments/assets/24163e32-f8b8-4eab-884c-b32f722f450c" alt="Junior Taskphase 1" width="300" height="300">
 ## Junior Taskphase 1
 - [Readme JTP1](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Readme_JTP1.md)
