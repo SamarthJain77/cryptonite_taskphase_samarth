@@ -1,7 +1,7 @@
 # cryptonite_taskphase_samarth
 ![Image 23-10-24 at 23 27](https://github.com/user-attachments/assets/24163e32-f8b8-4eab-884c-b32f722f450c)
-## Junior_Taskphase_1
-- [Readme_JTP1](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Readme_JTP1.md)
+## Junior Taskphase 1
+- [Readme JTP1](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Readme_JTP1.md)
 - [Hello Hackers](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Hello_Hackers.md)
 - [Pondering Paths](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Pondering_Paths.md)
 - [Comprehending Commands](https://github.com/SamarthJain77/cryptonite_taskphase_samarth/blob/main/Junior_Taskphase_1/Comprehending_Commands.md)
