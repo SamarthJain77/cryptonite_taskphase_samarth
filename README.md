@@ -17,4 +17,4 @@
 - [Pondering PATH](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/pwn.college/Pondering_PATH.md)
 ## Capture the Flag
 - [README CTF](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/Capture_the_Flag/README_CTF.md)
-- [OASIS CTF](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md)
+- [OasisCTF](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/Capture_the_Flag/OasisCTF.md)
