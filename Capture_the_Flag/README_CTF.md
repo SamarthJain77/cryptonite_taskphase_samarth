@@ -1,4 +1,4 @@
-## OASIS CTF
+## OasisCTF
 - [Ready Player One?](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#ready-player-one)
 - [Arte-Miss?](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#arte-miss)
 - [Jekylle and Hide!](https://github.com/SamarthJain77/cryptonite_taskphase1_samarth/blob/main/Capture_the_Flag/OASIS_CTF.md#jekylle-and-hide)
